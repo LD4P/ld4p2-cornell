@@ -1,0 +1,6723 @@
+[{
+  "status": "Accepted",
+  "series": [],
+  //labels map to bf:Organizations, not sure we want to do when "data_quality": "Needs Major Changes, e.g. https://api.discogs.com/labels/859570
+  "labels": [
+    {
+      "name": "TV Music Co.",
+      "entity_type": "1",
+      // not sure why a label has a catno
+      "catno": "ZSP 3842",
+      "resource_url": "https://api.discogs.com/labels/859570",
+      "id": 859570,
+      "entity_type_name": "Label"
+    }
+  ],
+  //Ignore community
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "Diognes_The_Fox",
+        "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+      },
+      {
+        "username": "Six_Tail_Lights",
+        "resource_url": "https://api.discogs.com/users/Six_Tail_Lights"
+      }
+    ],
+    "have": 0,
+    "submitter": {
+      "username": "Diognes_The_Fox",
+      "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+    },
+    "data_quality": "Needs Vote"
+  },
+  // Map to bf:Contribution/bf:date on bf:Instance, or bf:copyrightDate
+  "year": 1971,
+  "images": [
+    {
+      "uri": "",
+      "height": 599,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 599,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  // bf:Identifier
+  "id": 7141302,
+  // ignore, use "artists"
+  "artists_sort": "Frank Sinatra",
+  // bf:genreForm, but would have to reconcile with LCGFT, could be the search value in the lookup
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 4,
+  "title": "I Guess I'll Have To Dream The Rest",
+  // bf:Contribution/bf:agent. Would need to Reconcile or use as search in lookup. Need to decide how to handle principle performers and their roles.
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2016-08-12T15:24:25-07:00",
+  "lowest_price": 7.35,
+  "styles": [
+    "Ballad"
+  ],
+  "released_formatted": "1971",
+  // each value would need to be mapped to a resource
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        // Measurement model or bf:dimensions
+        "7\"",
+        //bf:PlayingSpeed
+        "45 RPM",
+        // not sure if this is really a bf:editionStatement. bf:edition has domain of bf:Classification
+        "Promo",
+        "Stereo",
+        "Mono"
+      ],
+      //bf:baseMaterial (probably don't wait for changes to material pattern)
+      "name": "Vinyl"
+    }
+  ],
+  // Measurement model or bf:dimensions
+  "estimated_weight": 60,
+  //bf:Provision / bf:date
+  "released": "1971",
+  "date_added": "2015-06-18T07:33:05-07:00",
+  // bf:Contribution/bf:agent. Would need to Reconcile or use as search in lookup. Need to decide how to handle secondary performers and their roles.
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Harold Green",
+      "anv": "",
+      "tracks": "",
+      "role": "Written-By",
+      "resource_url": "https://api.discogs.com/artists/902493",
+      "id": 902493
+    },
+    {
+      "join": "",
+      "name": "Mickey Stoner",
+      "anv": "",
+      "tracks": "",
+      "role": "Written-By",
+      "resource_url": "https://api.discogs.com/artists/902491",
+      "id": 902491
+    }
+  ],
+  // bf:hasPart bf:Work, and/or bf:tableOfContents/bf:TableOfContents
+  "tracklist": [
+    {
+      "duration": "2:42",
+      "position": "A",
+      "type_": "track",
+      "title": "I Guess I'll Have To Dream The Rest"
+    },
+    {
+      "duration": "2:42",
+      "position": "B",
+      "type_": "track",
+      "title": "I Guess I'll Have To Dream The Rest"
+    }
+  ],
+  "notes": "Not For Sale - For broadcast use only.\r\n\r\nA - Mono Side\r\nB - Stereo Side",
+  //bf:Identifier (type could be used to determine subclasses)
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "A-Side Runout Etching",
+      "value": "ZSP-3842-A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B-Side Runout Etching",
+      "value": "ZSP-3842-B"
+    }
+  ],
+  "companies": [
+    //bf:Provisions
+    {
+      "name": "Columbia Records",
+      "entity_type": "6",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/93330",
+      "id": 93330,
+      "entity_type_name": "Licensed From"
+    },
+    {
+      "name": "TV Music Co.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/859570",
+      "id": 859570,
+      "entity_type_name": "Published By"
+    }
+  ],
+  "uri": "https://www.discogs.com/Frank-Sinatra-I-Guess-Ill-Have-To-Dream-The-Rest/release/7141302",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/7141302",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "ZSP 12194",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "BelmontRecords",
+        "resource_url": "https://api.discogs.com/users/BelmontRecords"
+      }
+    ],
+    "have": 0,
+    "submitter": {
+      "username": "BelmontRecords",
+      "resource_url": "https://api.discogs.com/users/BelmontRecords"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 604,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 10018955,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 1,
+  "title": "Why Try To Change Me Now",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-03-22T17:37:08-07:00",
+  "lowest_price": 39.99,
+  "styles": [
+    "Vocal"
+  ],
+  "estimated_weight": 60,
+  "date_added": "2017-03-22T17:31:42-07:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "Why Try To Change Me Now"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "All Or Nothing At All"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Why-Try-To-Change-Me-Now/release/10018955",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single",
+        "Promo"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "resource_url": "https://api.discogs.com/releases/10018955",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-36825",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 4,
+    "contributors": [
+      {
+        "username": "berothbr",
+        "resource_url": "https://api.discogs.com/users/berothbr"
+      },
+      {
+        "username": "HolyCowNYC",
+        "resource_url": "https://api.discogs.com/users/HolyCowNYC"
+      },
+      {
+        "username": "DiscogsUpdateBot",
+        "resource_url": "https://api.discogs.com/users/DiscogsUpdateBot"
+      }
+    ],
+    "have": 7,
+    "submitter": {
+      "username": "berothbr",
+      "resource_url": "https://api.discogs.com/users/berothbr"
+    },
+    "data_quality": "Complete and Correct"
+  },
+  "year": 1950,
+  "images": [
+    {
+      "uri": "",
+      "height": 384,
+      "width": 400,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 400,
+      "width": 395,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 6338167,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 5,
+  "title": "If I Loved You",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2015-03-07T15:03:07-08:00",
+  "master_id": 796310,
+  "lowest_price": 0.75,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1950",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/796310",
+  "released": "1950",
+  "date_added": "2014-11-23T18:42:58-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Orchestra Under Direction Of]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    },
+    {
+      "join": "",
+      "name": "Oscar Hammerstein II",
+      "anv": "",
+      "tracks": "",
+      "role": "Written-By [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/253375",
+      "id": 253375
+    },
+    {
+      "join": "",
+      "name": "Richard Rodgers",
+      "anv": "",
+      "tracks": "",
+      "role": "Written-By [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/255801",
+      "id": 255801
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "If I Loved You"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Ken Lane Singers",
+          "anv": "The Ken Lane Singers Orchestra",
+          "tracks": "",
+          "role": "Featuring [With]",
+          "resource_url": "https://api.discogs.com/artists/377045",
+          "id": 377045
+        }
+      ],
+      "title": "You'll Never Walk Alone"
+    }
+  ],
+  "notes": "\"From \"[url=http://www.discogs.com/Rodgers-Hammerstein-Carousel/master/275681]Carousel[/url]\" [url=http://www.discogs.com/artist/284099-Rodgers-Hammerstein]Hammerstein II-Rogers[/url]\"\r\n\r\nLikely recorded in December 1944.",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Label side A",
+      "value": "ZSP 6513"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Label side B",
+      "value": "ZSP 6514"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Run-out area side A [machine-stamped]",
+      "value": "ZSP 6513 1A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Run-out area side B [machine-stamped]",
+      "value": "ZSP 6514-1C"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-If-I-Loved-You/release/6338167",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/6338167",
+  "data_quality": "Complete and Correct"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-37161",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 3,
+    "contributors": [
+      {
+        "username": "blurayven",
+        "resource_url": "https://api.discogs.com/users/blurayven"
+      },
+      {
+        "username": "kwulf",
+        "resource_url": "https://api.discogs.com/users/kwulf"
+      },
+      {
+        "username": "AwesomeAndrew62",
+        "resource_url": "https://api.discogs.com/users/AwesomeAndrew62"
+      }
+    ],
+    "have": 4,
+    "submitter": {
+      "username": "blurayven",
+      "resource_url": "https://api.discogs.com/users/blurayven"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1950,
+  "images": [
+    {
+      "uri": "",
+      "height": 610,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 6594842,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 3,
+  "title": "September Song",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2018-05-09T11:06:33-07:00",
+  "master_id": 407405,
+  "lowest_price": 4.99,
+  "styles": [
+    "Vocal",
+    "Swing"
+  ],
+  "released_formatted": "1950",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/407405",
+  "released": "1950",
+  "date_added": "2015-01-31T14:06:20-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Arranged By",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "September Song"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "Among My Souvenirs"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-September-Song/release/6594842",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/6594842",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-37257",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "3rdDoc",
+        "resource_url": "https://api.discogs.com/users/3rdDoc"
+      }
+    ],
+    "have": 3,
+    "submitter": {
+      "username": "3rdDoc",
+      "resource_url": "https://api.discogs.com/users/3rdDoc"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "format_quantity": 1,
+  "id": 6791419,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 1,
+  "title": "That Old Black Magic / How Deep Is The Ocean",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2015-03-18T11:03:07-07:00",
+  "lowest_price": 4,
+  "styles": [
+    "Vocal"
+  ],
+  "estimated_weight": 60,
+  "date_added": "2015-03-18T11:02:16-07:00",
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A1",
+      "type_": "track",
+      "title": "That Old Black Magic"
+    },
+    {
+      "duration": "",
+      "position": "B1",
+      "type_": "track",
+      "title": "How Deep Is The Ocean"
+    }
+  ],
+  "extraartists": [],
+  "country": "US",
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-That-Old-Black-Magic-How-Deep-Is-The-Ocean/release/6791419",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "resource_url": "https://api.discogs.com/releases/6791419",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "videos": [
+    {
+      "duration": 156,
+      "embed": true,
+      "title": "Frank Sinatra & Harry James - Castle Rock",
+      "description": "Frank Sinatra & Harry James - Castle Rock",
+      "uri": "https://www.youtube.com/watch?v=mIIzLRu6JC8"
+    },
+    {
+      "duration": 201,
+      "embed": true,
+      "title": "Deep Night - Frank Sinatra",
+      "description": "Deep Night - Frank Sinatra",
+      "uri": "https://www.youtube.com/watch?v=f1WchSSC5vE"
+    }
+  ],
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-39527",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "year": 1951,
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 7,
+    "contributors": [
+      {
+        "username": "oovalen",
+        "resource_url": "https://api.discogs.com/users/oovalen"
+      },
+      {
+        "username": "WiresInTheWalls",
+        "resource_url": "https://api.discogs.com/users/WiresInTheWalls"
+      },
+      {
+        "username": "T-Noir",
+        "resource_url": "https://api.discogs.com/users/T-Noir"
+      },
+      {
+        "username": "Bubbatex",
+        "resource_url": "https://api.discogs.com/users/Bubbatex"
+      }
+    ],
+    "have": 9,
+    "submitter": {
+      "username": "oovalen",
+      "resource_url": "https://api.discogs.com/users/oovalen"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "artists": [
+    {
+      "join": "&",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    },
+    {
+      "join": "",
+      "name": "Harry James (2)",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/313097",
+      "id": 313097
+    }
+  ],
+  "images": [
+    {
+      "uri": "",
+      "height": 364,
+      "width": 361,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 632,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 617,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 3049931,
+  "artists_sort": "Frank Sinatra & Harry James (2)",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "Castle Rock / Deep Night",
+  "date_changed": "2017-07-21T16:51:58-07:00",
+  "master_id": 874934,
+  "lowest_price": 5.99,
+  "styles": [
+    "Big Band",
+    "Vocal",
+    "Swing"
+  ],
+  "released_formatted": "Aug 1951",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/874934",
+  "released": "1951-08-00",
+  "date_added": "2011-08-14T15:44:57-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Herb Steward",
+      "anv": "Herbie Steward",
+      "tracks": "",
+      "role": "Alto Saxophone [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/335521",
+      "id": 335521
+    },
+    {
+      "join": "",
+      "name": "Musky Ruffo",
+      "anv": "Mascagni \"Musky\" Ruffo",
+      "tracks": "",
+      "role": "Alto Saxophone [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/1899411",
+      "id": 1899411
+    },
+    {
+      "join": "",
+      "name": "Bob Poland",
+      "anv": "",
+      "tracks": "",
+      "role": "Baritone Saxophone [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/859122",
+      "id": 859122
+    },
+    {
+      "join": "",
+      "name": "Bob Stone (2)",
+      "anv": "",
+      "tracks": "",
+      "role": "Bass [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/931702",
+      "id": 931702
+    },
+    {
+      "join": "",
+      "name": "Harry James (2)",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/313097",
+      "id": 313097
+    },
+    {
+      "join": "",
+      "name": "Jackie Mills",
+      "anv": "",
+      "tracks": "",
+      "role": "Drums [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/327625",
+      "id": 327625
+    },
+    {
+      "join": "",
+      "name": "Allan Reuss",
+      "anv": "Allen Reuss",
+      "tracks": "",
+      "role": "Guitar [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/312531",
+      "id": 312531
+    },
+    {
+      "join": "",
+      "name": "Harry James And His Orchestra",
+      "anv": "",
+      "tracks": "",
+      "role": "Orchestra [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/265635",
+      "id": 265635
+    },
+    {
+      "join": "",
+      "name": "Bruce MacDonald",
+      "anv": "Bruce McDonald",
+      "tracks": "",
+      "role": "Piano [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/900310",
+      "id": 900310
+    },
+    {
+      "join": "",
+      "name": "Corky Corcoran",
+      "anv": "",
+      "tracks": "",
+      "role": "Tenor Saxophone [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/330706",
+      "id": 330706
+    },
+    {
+      "join": "",
+      "name": "Francis Polifroni",
+      "anv": "Polly Polfrani",
+      "tracks": "",
+      "role": "Tenor Saxophone [Uncredited], Clarinet [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/1206013",
+      "id": 1206013
+    },
+    {
+      "join": "",
+      "name": "Dave Robbins (4)",
+      "anv": "",
+      "tracks": "",
+      "role": "Trombone [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/1855839",
+      "id": 1855839
+    },
+    {
+      "join": "",
+      "name": "Dave Wells",
+      "anv": "",
+      "tracks": "",
+      "role": "Trombone [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/95564",
+      "id": 95564
+    },
+    {
+      "join": "",
+      "name": "Gene Norton",
+      "anv": "",
+      "tracks": "",
+      "role": "Trombone [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/3854560",
+      "id": 3854560
+    },
+    {
+      "join": "",
+      "name": "Lew McCreary",
+      "anv": "Lewis McGreery",
+      "tracks": "",
+      "role": "Trombone [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/280072",
+      "id": 280072
+    },
+    {
+      "join": "",
+      "name": "Everett McDonald",
+      "anv": "",
+      "tracks": "",
+      "role": "Trumpet [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/1206001",
+      "id": 1206001
+    },
+    {
+      "join": "",
+      "name": "Harry James (2)",
+      "anv": "",
+      "tracks": "",
+      "role": "Trumpet [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/313097",
+      "id": 313097
+    },
+    {
+      "join": "",
+      "name": "Nick Buono",
+      "anv": "",
+      "tracks": "",
+      "role": "Trumpet [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/370713",
+      "id": 370713
+    },
+    {
+      "join": "",
+      "name": "Phil Cook (4)",
+      "anv": "",
+      "tracks": "",
+      "role": "Trumpet [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/2527870",
+      "id": 2527870
+    },
+    {
+      "join": "",
+      "name": "Ralph Osborne",
+      "anv": "Ralph Osborn",
+      "tracks": "",
+      "role": "Trumpet [Uncredited]",
+      "resource_url": "https://api.discogs.com/artists/688672",
+      "id": 688672
+    },
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "Vocals",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "tracklist": [
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Al Sears",
+          "anv": "Sears",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/309989",
+          "id": 309989
+        },
+        {
+          "join": "",
+          "name": "Ervin Drake",
+          "anv": "E. Drake",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/636380",
+          "id": 636380
+        },
+        {
+          "join": "",
+          "name": "Jimmy Shirl",
+          "anv": "Shirl",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/636374",
+          "id": 636374
+        }
+      ],
+      "title": "Castle Rock",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "&",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Harry James (2)",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/313097",
+          "id": 313097
+        }
+      ],
+      "duration": "",
+      "position": "A"
+    },
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Charles Henderson",
+          "anv": "C. Henderson",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/898406",
+          "id": 898406
+        },
+        {
+          "join": "",
+          "name": "Rudy Vallee",
+          "anv": "Vallee",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/651411",
+          "id": 651411
+        }
+      ],
+      "title": "Deep Night",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "&",
+          "name": "Harry James (2)",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/313097",
+          "id": 313097
+        },
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        }
+      ],
+      "duration": "",
+      "position": "B"
+    }
+  ],
+  "notes": "Both sides recorded July 19, 1951 in Hollywood, CA.\nAdvertised on p. 15 of the August 18, 1951 issue of Billboard.\nRecording dates/locations and performer credits from The Jazz Discography Ver 14.0",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A Label",
+      "value": "ZSP 7694"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B Label",
+      "value": "ZSP 7696"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Harry-James-Castle-Rock-Deep-Night/release/3049931",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/3049931",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-39652",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "roundtownmusic",
+        "resource_url": "https://api.discogs.com/users/roundtownmusic"
+      },
+      {
+        "username": "best-tunes",
+        "resource_url": "https://api.discogs.com/users/best-tunes"
+      }
+    ],
+    "have": 8,
+    "submitter": {
+      "username": "roundtownmusic",
+      "resource_url": "https://api.discogs.com/users/roundtownmusic"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1952,
+  "images": [
+    {
+      "uri": "",
+      "height": 753,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 746,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 5758489,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "I Hear A Rhapsody",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2015-11-24T22:05:40-08:00",
+  "master_id": 919072,
+  "lowest_price": 3.93,
+  "status": "Accepted",
+  "released_formatted": "1952",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/919072",
+  "released": "1952",
+  "date_added": "2014-06-03T18:37:27-07:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A1",
+      "type_": "track",
+      "title": "I Hear A Rhapsody"
+    },
+    {
+      "duration": "",
+      "position": "B1",
+      "type_": "track",
+      "title": "I Could Write A Book"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-I-Hear-A-Rhapsody/release/5758489",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/5758489",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-39787",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "TopCats45s",
+        "resource_url": "https://api.discogs.com/users/TopCats45s"
+      },
+      {
+        "username": "adriverhoef",
+        "resource_url": "https://api.discogs.com/users/adriverhoef"
+      }
+    ],
+    "have": 7,
+    "submitter": {
+      "username": "TopCats45s",
+      "resource_url": "https://api.discogs.com/users/TopCats45s"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1952,
+  "images": [
+    {
+      "uri": "",
+      "height": 599,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 7183841,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 0,
+  "title": "Luna Rossa / Tennessee Newsboy",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2016-11-14T03:46:53-08:00",
+  "master_id": 789028,
+  "lowest_price": null,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1952",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/789028",
+  "released": "1952",
+  "date_added": "2015-06-29T12:09:22-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Orchestrated By",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Norman Luboff Choir",
+          "anv": "The Norman Luboff Choir",
+          "tracks": "",
+          "role": "Choir",
+          "resource_url": "https://api.discogs.com/artists/408668",
+          "id": 408668
+        },
+        {
+          "join": "",
+          "name": "Antonio Vian",
+          "anv": "Vian",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/922250",
+          "id": 922250
+        },
+        {
+          "join": "",
+          "name": "Kermit Goell",
+          "anv": "Goell",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/710656",
+          "id": 710656
+        },
+        {
+          "join": "",
+          "name": "Vincenzo de Crescenzo",
+          "anv": "De Crescenzo",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/837676",
+          "id": 837676
+        }
+      ],
+      "title": "Luna Rossa (Blushing Moon) Sung In English"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Dick Manning",
+          "anv": "Manning",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/706105",
+          "id": 706105
+        },
+        {
+          "join": "",
+          "name": "Russ Faith",
+          "anv": "Faith",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/803935",
+          "id": 803935
+        }
+      ],
+      "title": "Tennessee Newsboy (The Newsboy Blues)"
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A Label",
+      "value": "RZSP 10178"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B Label",
+      "value": "RZSP 10181"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Luna-Rossa-Tennessee-Newsboy/release/7183841",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/7183841",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-39819",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 1,
+      "average": 5
+    },
+    "want": 4,
+    "contributors": [
+      {
+        "username": "blurayven",
+        "resource_url": "https://api.discogs.com/users/blurayven"
+      },
+      {
+        "username": "GroovingPict",
+        "resource_url": "https://api.discogs.com/users/GroovingPict"
+      }
+    ],
+    "have": 12,
+    "submitter": {
+      "username": "blurayven",
+      "resource_url": "https://api.discogs.com/users/blurayven"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1952,
+  "images": [
+    {
+      "uri": "",
+      "height": 595,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 603,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 6594590,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 0,
+  "title": "Azure-Te (Paris Blues)",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-05-06T04:33:36-07:00",
+  "master_id": 1175777,
+  "lowest_price": null,
+  "styles": [
+    "Vocal",
+    "Swing"
+  ],
+  "released_formatted": "1952",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/1175777",
+  "released": "1952",
+  "date_added": "2015-01-31T13:02:43-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Benny Davis",
+      "anv": "",
+      "tracks": "",
+      "role": "Written By",
+      "resource_url": "https://api.discogs.com/artists/693653",
+      "id": 693653
+    },
+    {
+      "join": "",
+      "name": "Don Wolf",
+      "anv": "",
+      "tracks": "",
+      "role": "Written By",
+      "resource_url": "https://api.discogs.com/artists/713805",
+      "id": 713805
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "Azure-Te (Paris Blues)"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "Bim Bam Baby"
+    }
+  ],
+  "notes": "Catalog Number: 4-39819\r\nMaster Number: RCHO-10180-1",
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Azure-Te-Paris-Blues/release/6594590",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/6594590",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-39882",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 3,
+    "contributors": [
+      {
+        "username": "Xaman",
+        "resource_url": "https://api.discogs.com/users/Xaman"
+      },
+      {
+        "username": "W.B.",
+        "resource_url": "https://api.discogs.com/users/W.B."
+      },
+      {
+        "username": "cyeaman",
+        "resource_url": "https://api.discogs.com/users/cyeaman"
+      },
+      {
+        "username": "best-tunes",
+        "resource_url": "https://api.discogs.com/users/best-tunes"
+      },
+      {
+        "username": "d-of",
+        "resource_url": "https://api.discogs.com/users/d-of"
+      }
+    ],
+    "have": 27,
+    "submitter": {
+      "username": "Xaman",
+      "resource_url": "https://api.discogs.com/users/Xaman"
+    },
+    "data_quality": "Complete and Correct"
+  },
+  "year": 1952,
+  "images": [
+    {
+      "uri": "",
+      "height": 598,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 599,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 1835351,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 24,
+  "title": "The Birth Of The Blues / Why Try To Change Me Now",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-04-22T23:13:20-07:00",
+  "master_id": 919068,
+  "lowest_price": 4,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "17 Oct 1952",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/919068",
+  "released": "1952-10-17",
+  "date_added": "2009-07-03T20:06:04-07:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Axel Stordahl",
+          "anv": "",
+          "tracks": "",
+          "role": "Directed By [Orchestra]",
+          "resource_url": "https://api.discogs.com/artists/299962",
+          "id": 299962
+        },
+        {
+          "join": "",
+          "name": "DeSylva, Brown And Henderson",
+          "anv": "DeSylva-Brown-Henderson",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/1427593",
+          "id": 1427593
+        }
+      ],
+      "title": "The Birth Of The Blues",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        }
+      ],
+      "duration": "3:22",
+      "position": "A"
+    },
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Cy Coleman",
+          "anv": "C. Coleman",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/276433",
+          "id": 276433
+        },
+        {
+          "join": "",
+          "name": "Joseph McCarthy, Jr.",
+          "anv": "J. McCarthy",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/3908415",
+          "id": 3908415
+        }
+      ],
+      "title": "Why Try To Change Me Now",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "With",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Percy Faith & His Orchestra",
+          "anv": "Percy Faith & His Orch.",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/27515",
+          "id": 27515
+        }
+      ],
+      "duration": "2:43",
+      "position": "B"
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "A side deadwax - stamped",
+      "value": "RZSP10179-1A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B side deadwax - stamped",
+      "value": "ZSP12194-1A"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Columbia Records Pressing Plant, Bridgeport",
+      "entity_type": "17",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/447780",
+      "id": 447780,
+      "entity_type_name": "Pressed By"
+    }
+  ],
+  "uri": "https://www.discogs.com/Frank-Sinatra-The-Birth-Of-The-Blues-Why-Try-To-Change-Me-Now/release/1835351",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/1835351",
+  "data_quality": "Complete and Correct"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-40229",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "IllianaMusic",
+        "resource_url": "https://api.discogs.com/users/IllianaMusic"
+      },
+      {
+        "username": "Dragoenweyr",
+        "resource_url": "https://api.discogs.com/users/Dragoenweyr"
+      },
+      {
+        "username": "kwulf",
+        "resource_url": "https://api.discogs.com/users/kwulf"
+      }
+    ],
+    "have": 2,
+    "submitter": {
+      "username": "IllianaMusic",
+      "resource_url": "https://api.discogs.com/users/IllianaMusic"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1957,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 7915541,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 1,
+  "title": "I'm Glad There Is You / You Can Take My Word For It, Baby",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2016-02-24T15:00:48-08:00",
+  "master_id": 963430,
+  "lowest_price": 6,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1957",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/963430",
+  "released": "1957",
+  "date_added": "2015-12-31T07:29:35-08:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "I'm Glad There Is You"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "You Can Take My Word For It, Baby"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Im-Glad-There-Is-You-You-Can-Take-My-Word-For-It-Baby/release/7915541",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/7915541",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-40522",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 1,
+      "average": 5
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "degm",
+        "resource_url": "https://api.discogs.com/users/degm"
+      }
+    ],
+    "have": 4,
+    "submitter": {
+      "username": "degm",
+      "resource_url": "https://api.discogs.com/users/degm"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1955,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 599,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 10369994,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "Dream",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-05-30T03:04:50-07:00",
+  "master_id": 1187688,
+  "lowest_price": 3.5,
+  "styles": [
+    "Vocal",
+    "Swing"
+  ],
+  "released_formatted": "1955",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/1187688",
+  "released": "1955",
+  "date_added": "2017-05-30T02:55:25-07:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Axel Stordahl",
+          "anv": "",
+          "tracks": "",
+          "role": "Directed By",
+          "resource_url": "https://api.discogs.com/artists/299962",
+          "id": 299962
+        }
+      ],
+      "title": "Dream",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "With",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Ken Lane Singers",
+          "anv": "The Ken Lane Singers",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/377045",
+          "id": 377045
+        }
+      ],
+      "duration": "",
+      "position": "A"
+    },
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Mitch Miller",
+          "anv": "",
+          "tracks": "",
+          "role": "Directed By",
+          "resource_url": "https://api.discogs.com/artists/361544",
+          "id": 361544
+        }
+      ],
+      "title": "American Beauty Rose",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        }
+      ],
+      "duration": "",
+      "position": "B"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Dream/release/10369994",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/10369994",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-40522",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "blurayven",
+        "resource_url": "https://api.discogs.com/users/blurayven"
+      },
+      {
+        "username": "degm",
+        "resource_url": "https://api.discogs.com/users/degm"
+      }
+    ],
+    "have": 6,
+    "submitter": {
+      "username": "blurayven",
+      "resource_url": "https://api.discogs.com/users/blurayven"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1955,
+  "images": [
+    {
+      "uri": "",
+      "height": 601,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 605,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 6595170,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 5,
+  "title": "Dream",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-05-30T03:04:50-07:00",
+  "master_id": 1187688,
+  "lowest_price": 2.5,
+  "styles": [
+    "Vocal",
+    "Swing"
+  ],
+  "released_formatted": "1955",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single",
+        "Promo"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/1187688",
+  "released": "1955",
+  "date_added": "2015-01-31T15:38:53-08:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "Dream"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "American Beauty Rose"
+    }
+  ],
+  "notes": "promo - not for sale",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Dream/release/6595170",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/6595170",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-40565",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "gruffd1",
+        "resource_url": "https://api.discogs.com/users/gruffd1"
+      },
+      {
+        "username": "d-of",
+        "resource_url": "https://api.discogs.com/users/d-of"
+      },
+      {
+        "username": "LottaLPs",
+        "resource_url": "https://api.discogs.com/users/LottaLPs"
+      },
+      {
+        "username": "billshetler",
+        "resource_url": "https://api.discogs.com/users/billshetler"
+      }
+    ],
+    "have": 7,
+    "submitter": {
+      "username": "gruffd1",
+      "resource_url": "https://api.discogs.com/users/gruffd1"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1955,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 5772469,
+  "artists_sort": "Frank Sinatra With Jeff Alexander Choir / Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "Sheila / Day By Day",
+  "artists": [
+    {
+      "join": "With",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    },
+    {
+      "join": "/",
+      "name": "Jeff Alexander Choir",
+      "anv": "The Jeff Alexander Choir",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/657823",
+      "id": 657823
+    },
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-07-24T17:12:41-07:00",
+  "master_id": 741553,
+  "lowest_price": 4.99,
+  "status": "Accepted",
+  "released_formatted": "1955",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/741553",
+  "released": "1955",
+  "date_added": "2014-06-08T08:06:33-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Orchestra]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Chris Hayward",
+          "anv": "Hayward",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/412113",
+          "id": 412113
+        },
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "Sinatra",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Robert Staver",
+          "anv": "Staver",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/3331370",
+          "id": 3331370
+        }
+      ],
+      "title": "Sheila",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "With",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Jeff Alexander Choir",
+          "anv": "The Jeff Alexander Choir",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/657823",
+          "id": 657823
+        }
+      ],
+      "duration": "3:15",
+      "position": "A"
+    },
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Axel Stordahl",
+          "anv": "Stordahl",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/299962",
+          "id": 299962
+        },
+        {
+          "join": "",
+          "name": "Paul Weston (2)",
+          "anv": "Weston",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/299937",
+          "id": 299937
+        },
+        {
+          "join": "",
+          "name": "Sammy Cahn",
+          "anv": "Cahn",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/255312",
+          "id": 255312
+        }
+      ],
+      "title": "Day By Day",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        }
+      ],
+      "duration": "",
+      "position": "B"
+    }
+  ],
+  "notes": "Side A published by Sinatra Songs, Inc.Corp.\r\nSide B published by Barton Music ",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A Label",
+      "value": "JZSP 36980"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B Label",
+      "value": "JZSP 36979"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A Runout",
+      "value": "JZSP36980-1B"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B Runout",
+      "value": "J ZSP36979-1J"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Barton Music",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/314454",
+      "id": 314454,
+      "entity_type_name": "Published By"
+    },
+    {
+      "name": "Sinatra Songs, Inc.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/621976",
+      "id": 621976,
+      "entity_type_name": "Published By"
+    }
+  ],
+  "uri": "https://www.discogs.com/Frank-Sinatra-With-The-Jeff-Alexander-Choir-Frank-Sinatra-Sheila-Day-By-Day/release/5772469",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/5772469",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-40565",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "degm",
+        "resource_url": "https://api.discogs.com/users/degm"
+      },
+      {
+        "username": "disneyfacts",
+        "resource_url": "https://api.discogs.com/users/disneyfacts"
+      },
+      {
+        "username": "d-of",
+        "resource_url": "https://api.discogs.com/users/d-of"
+      },
+      {
+        "username": "Gorgyporgy",
+        "resource_url": "https://api.discogs.com/users/Gorgyporgy"
+      },
+      {
+        "username": "Diognes_The_Fox",
+        "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+      },
+      {
+        "username": "billshetler",
+        "resource_url": "https://api.discogs.com/users/billshetler"
+      }
+    ],
+    "have": 3,
+    "submitter": {
+      "username": "degm",
+      "resource_url": "https://api.discogs.com/users/degm"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1955,
+  "images": [
+    {
+      "uri": "",
+      "height": 598,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 594,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 5152013,
+  "artists_sort": "Frank Sinatra With Jeff Alexander Choir / Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "Sheila / Day By Day",
+  "artists": [
+    {
+      "join": "With",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    },
+    {
+      "join": "/",
+      "name": "Jeff Alexander Choir",
+      "anv": "The Jeff Alexander Choir",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/657823",
+      "id": 657823
+    },
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-07-24T17:16:15-07:00",
+  "master_id": 741553,
+  "lowest_price": 8.99,
+  "styles": [
+    "Vocal",
+    "Easy Listening"
+  ],
+  "released_formatted": "1955",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single",
+        "Promo"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/741553",
+  "released": "1955",
+  "date_added": "2013-12-01T06:52:31-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Orchestra]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Chris Hayward",
+          "anv": "Hayward",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/412113",
+          "id": 412113
+        },
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "Sinatra",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Robert Staver",
+          "anv": "Staver",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/3331370",
+          "id": 3331370
+        }
+      ],
+      "title": "Sheila",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "With",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Jeff Alexander Choir",
+          "anv": "The Jeff Alexander Choir",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/657823",
+          "id": 657823
+        }
+      ],
+      "duration": "3:15",
+      "position": "A"
+    },
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Axel Stordahl",
+          "anv": "Stordahl",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/299962",
+          "id": 299962
+        },
+        {
+          "join": "",
+          "name": "Paul Weston (2)",
+          "anv": "Weston",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/299937",
+          "id": 299937
+        },
+        {
+          "join": "",
+          "name": "Sammy Cahn",
+          "anv": "Cahn",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/255312",
+          "id": 255312
+        }
+      ],
+      "title": "Day By Day",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        }
+      ],
+      "duration": "",
+      "position": "B"
+    }
+  ],
+  "notes": "Side A published by Sinatra Songs, Inc.\nSide B published by Barton Music Corp.\n\nPromotion Record - Not For Sale",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A Label",
+      "value": "JZSP 36980"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B Label",
+      "value": "JZSP 36979"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A Runout",
+      "value": "JZSP36980-1B"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B Runout",
+      "value": "J ZSP36979-1J"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "A-Side Runout Etching (Variant)",
+      "value": "JZSP36980-1B."
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B-Side Runout Etching (Variant)",
+      "value": "J ZSP36979-1H."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Barton Music Corp.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/685746",
+      "id": 685746,
+      "entity_type_name": "Published By"
+    },
+    {
+      "name": "Sinatra Songs, Inc.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/621976",
+      "id": 621976,
+      "entity_type_name": "Published By"
+    },
+    {
+      "name": "Columbia Records Pressing Plant, Bridgeport",
+      "entity_type": "17",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/447780",
+      "id": 447780,
+      "entity_type_name": "Pressed By"
+    }
+  ],
+  "uri": "https://www.discogs.com/Frank-Sinatra-With-The-Jeff-Alexander-Choir-Frank-Sinatra-Sheila-Day-By-Day/release/5152013",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/5152013",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-41133",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "Daggerfan",
+        "resource_url": "https://api.discogs.com/users/Daggerfan"
+      },
+      {
+        "username": "seppuku",
+        "resource_url": "https://api.discogs.com/users/seppuku"
+      },
+      {
+        "username": "blackbookpress",
+        "resource_url": "https://api.discogs.com/users/blackbookpress"
+      }
+    ],
+    "have": 4,
+    "submitter": {
+      "username": "Daggerfan",
+      "resource_url": "https://api.discogs.com/users/Daggerfan"
+    },
+    "data_quality": "Correct"
+  },
+  "year": 1958,
+  "format_quantity": 1,
+  "id": 4962756,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 0,
+  "title": "If I Forget You",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2015-02-19T07:16:59-08:00",
+  "master_id": 799526,
+  "lowest_price": null,
+  "status": "Accepted",
+  "released_formatted": "1958",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/799526",
+  "released": "1958",
+  "date_added": "2013-10-03T05:59:10-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Orchestra",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:11",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Irving Caesar",
+          "anv": "",
+          "tracks": "",
+          "role": "Songwriter",
+          "resource_url": "https://api.discogs.com/artists/301994",
+          "id": 301994
+        }
+      ],
+      "title": "If I Forget You"
+    },
+    {
+      "duration": "2:55",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "Sinatra",
+          "tracks": "",
+          "role": "Songwriter",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Jack Wolf",
+          "anv": "Wolf",
+          "tracks": "",
+          "role": "Songwriter",
+          "resource_url": "https://api.discogs.com/artists/673224",
+          "id": 673224
+        },
+        {
+          "join": "",
+          "name": "Joel Herron",
+          "anv": "Herron",
+          "tracks": "",
+          "role": "Songwriter",
+          "resource_url": "https://api.discogs.com/artists/835522",
+          "id": 835522
+        },
+        {
+          "join": "",
+          "name": "Wolf/Herron/Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "Written By",
+          "resource_url": "https://api.discogs.com/artists/3489073",
+          "id": 3489073
+        }
+      ],
+      "title": "I'm A Fool To Want You"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-If-I-Forget-You/release/4962756",
+  "country": "Canada",
+  "resource_url": "https://api.discogs.com/releases/4962756",
+  "data_quality": "Correct"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-41133",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "Diognes_The_Fox",
+        "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+      }
+    ],
+    "have": 1,
+    "submitter": {
+      "username": "Diognes_The_Fox",
+      "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1958,
+  "images": [
+    {
+      "uri": "",
+      "height": 596,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 599,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 9763920,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "If I Forget You",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-02-05T05:14:02-08:00",
+  "master_id": 799526,
+  "lowest_price": 1.99,
+  "styles": [
+    "Ballad"
+  ],
+  "released_formatted": "1958",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Promo"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/799526",
+  "released": "1958",
+  "date_added": "2017-02-01T12:53:55-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Orchestra [Under Dir.], Chorus [Under Dir.]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:11",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Irving Caesar",
+          "anv": "I. Caesar",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/301994",
+          "id": 301994
+        }
+      ],
+      "title": "If I Forget You"
+    },
+    {
+      "duration": "2:55",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "Sinatra",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Jack Wolf",
+          "anv": "Wolf",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/673224",
+          "id": 673224
+        },
+        {
+          "join": "",
+          "name": "Joel Herron",
+          "anv": "Herron",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/835522",
+          "id": 835522
+        }
+      ],
+      "title": "I'm A Fool To Want You"
+    }
+  ],
+  "notes": "Promotion Record - Not For Sale",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "A-Side Label",
+      "value": "ZSP 13144"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B-Side Label",
+      "value": "ZSP 6710"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "A-Side Runout Etching",
+      "value": "JZSP43144-1AD.."
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B-Side Runout Etching",
+      "value": "JZSP 6710-2AD.."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Irving Caesar",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/665851",
+      "id": 665851,
+      "entity_type_name": "Published By"
+    },
+    {
+      "name": "Barton Music Corp.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/685746",
+      "id": 685746,
+      "entity_type_name": "Published By"
+    },
+    {
+      "name": "Columbia Records Pressing Plant, Bridgeport",
+      "entity_type": "17",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/447780",
+      "id": 447780,
+      "entity_type_name": "Pressed By"
+    }
+  ],
+  "uri": "https://www.discogs.com/Frank-Sinatra-If-I-Forget-You/release/9763920",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/9763920",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [
+    {
+      "name": "Columbia Hall Of Fame",
+      "entity_type": "2",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/263402",
+      "id": 263402,
+      "entity_type_name": "Series"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-50003",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "huggerwalker",
+        "resource_url": "https://api.discogs.com/users/huggerwalker"
+      },
+      {
+        "username": "Ktrump5",
+        "resource_url": "https://api.discogs.com/users/Ktrump5"
+      },
+      {
+        "username": "thursdaysrecords",
+        "resource_url": "https://api.discogs.com/users/thursdaysrecords"
+      },
+      {
+        "username": "Diognes_The_Fox",
+        "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+      }
+    ],
+    "have": 8,
+    "submitter": {
+      "username": "huggerwalker",
+      "resource_url": "https://api.discogs.com/users/huggerwalker"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 601,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 597,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 500,
+      "width": 500,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 5207462,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop",
+    "Stage & Screen"
+  ],
+  "thumb": "",
+  "num_for_sale": 3,
+  "title": "September Song / Among My Souvenirs",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-02-05T05:14:25-08:00",
+  "master_id": 407405,
+  "lowest_price": 5.45,
+  "styles": [
+    "Vocal"
+  ],
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Promo"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/407405",
+  "date_added": "2013-12-19T10:02:39-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Conductor",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:08",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Kurt Weill",
+          "anv": "K. Weill",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/407111",
+          "id": 407111
+        },
+        {
+          "join": "",
+          "name": "Maxwell Anderson",
+          "anv": "M. Anderson",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/226814",
+          "id": 226814
+        }
+      ],
+      "title": "September Song"
+    },
+    {
+      "duration": "3:19",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Edgar Leslie",
+          "anv": "E. Leslie",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/620388",
+          "id": 620388
+        },
+        {
+          "join": "",
+          "name": "Horatio Nicholls",
+          "anv": "H. Nicholls",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/713915",
+          "id": 713915
+        }
+      ],
+      "title": "Among My Souvenirs"
+    }
+  ],
+  "notes": "September Song from \"Knickerbocker Holiday\"\nAmong My Souvenirs from \"The Best Years of Our Lives\"\n\nNot For Sale",
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "A-Side Label",
+      "value": "ZSP 6515"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B-Side Label",
+      "value": "ZSP 6516"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "A-Side Runout Etching",
+      "value": "ZSP 6515-1C ."
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B-Side Runout Etching",
+      "value": "ZSP 6516-1C ."
+    }
+  ],
+  "companies": [
+    {
+      "name": "DeSylva, Brown & Henderson, Inc.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/391494",
+      "id": 391494,
+      "entity_type_name": "Published By"
+    },
+    {
+      "name": "Columbia Records Pressing Plant, Bridgeport",
+      "entity_type": "17",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/447780",
+      "id": 447780,
+      "entity_type_name": "Pressed By"
+    }
+  ],
+  "uri": "https://www.discogs.com/Frank-Sinatra-September-Song-Among-My-Souvenirs/release/5207462",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/5207462",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [
+    {
+      "name": "Columbia Hall Of Fame",
+      "entity_type": "2",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/263402",
+      "id": 263402,
+      "entity_type_name": "Series"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-50053",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "StaxOfWax45",
+        "resource_url": "https://api.discogs.com/users/StaxOfWax45"
+      },
+      {
+        "username": "vidman317",
+        "resource_url": "https://api.discogs.com/users/vidman317"
+      },
+      {
+        "username": "MJG196",
+        "resource_url": "https://api.discogs.com/users/MJG196"
+      },
+      {
+        "username": "blurayven",
+        "resource_url": "https://api.discogs.com/users/blurayven"
+      }
+    ],
+    "have": 4,
+    "submitter": {
+      "username": "StaxOfWax45",
+      "resource_url": "https://api.discogs.com/users/StaxOfWax45"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1955,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 4345765,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 9,
+  "title": "The Girl That I Marry",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2018-07-19T15:52:07-07:00",
+  "lowest_price": 2.25,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1955",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single",
+        "Reissue"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "released": "1955",
+  "date_added": "2013-03-03T21:15:20-08:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Irving Berlin",
+          "anv": "Berlin",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/508131",
+          "id": 508131
+        }
+      ],
+      "title": "The Girl That I Marry"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "Nancy (With The Laughing Face)"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-The-Girl-That-I-Marry/release/4345765",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/4345765",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [
+    {
+      "name": "Columbia Hall Of Fame",
+      "entity_type": "2",
+      "catno": "4-50066",
+      "resource_url": "https://api.discogs.com/labels/263402",
+      "id": 263402,
+      "entity_type_name": "Series"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-50066",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 4,
+    "contributors": [
+      {
+        "username": "Diognes_The_Fox",
+        "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+      },
+      {
+        "username": "berothbr",
+        "resource_url": "https://api.discogs.com/users/berothbr"
+      },
+      {
+        "username": "DiscogsUpdateBot",
+        "resource_url": "https://api.discogs.com/users/DiscogsUpdateBot"
+      }
+    ],
+    "have": 5,
+    "submitter": {
+      "username": "Diognes_The_Fox",
+      "resource_url": "https://api.discogs.com/users/Diognes_The_Fox"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1955,
+  "images": [
+    {
+      "uri": "",
+      "height": 597,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 2175926,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "If I Loved You / You'll Never Walk Alone",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2015-02-11T21:54:57-08:00",
+  "master_id": 796310,
+  "lowest_price": 0.99,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1955",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Reissue"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/796310",
+  "released": "1955",
+  "date_added": "2010-08-04T20:05:26-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Orch.]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    },
+    {
+      "join": "",
+      "name": "Rodgers & Hammerstein",
+      "anv": "Hammerstein II-Rodgers",
+      "tracks": "",
+      "role": "Written-By",
+      "resource_url": "https://api.discogs.com/artists/284099",
+      "id": 284099
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Ken Lane Singers",
+          "anv": "The Ken Lane Singers",
+          "tracks": "",
+          "role": "Chorus",
+          "resource_url": "https://api.discogs.com/artists/377045",
+          "id": 377045
+        }
+      ],
+      "title": "If I Loved You"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "You'll Never Walk Alone"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-If-I-Loved-You-Youll-Never-Walk-Alone/release/2175926",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/2175926",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [
+    {
+      "name": "Columbia Hall Of Fame",
+      "entity_type": "2",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/263402",
+      "id": 263402,
+      "entity_type_name": "Series"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-50069",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "ChristalBeerman",
+        "resource_url": "https://api.discogs.com/users/ChristalBeerman"
+      }
+    ],
+    "have": 1,
+    "submitter": {
+      "username": "ChristalBeerman",
+      "resource_url": "https://api.discogs.com/users/ChristalBeerman"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "format_quantity": 1,
+  "id": 9296640,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 0,
+  "title": "Saturday Night (Is The Loneliest Night Of The Week) / Five Minutes More",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2016-11-02T20:47:45-07:00",
+  "lowest_price": null,
+  "styles": [
+    "Vocal"
+  ],
+  "date_added": "2016-11-02T20:39:05-07:00",
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Jule Styne And Sammy Cahn",
+          "anv": "Cahn - Styne",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/2376276",
+          "id": 2376276
+        }
+      ],
+      "title": "Saturday Night (Is The Loneliest Night Of The Week) "
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Jule Styne And Sammy Cahn",
+          "anv": "Cahn - Styne",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/2376276",
+          "id": 2376276
+        }
+      ],
+      "title": "Five Minutes More"
+    }
+  ],
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Orchestra]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "country": "Canada",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "A-Side label",
+      "value": "ZSP 36262"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B-Side label",
+      "value": "ZSP 36263"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "A-Side stamped runout",
+      "value": "ZSP36262-1C"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B-Side stamped runout",
+      "value": "ZSP36263-1A"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Saturday-Night-Is-The-Loneliest-Night-Of-The-Week-Five-Minutes-More/release/9296640",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "10\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Shellac"
+    }
+  ],
+  "resource_url": "https://api.discogs.com/releases/9296640",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "videos": [
+    {
+      "duration": 226,
+      "embed": true,
+      "title": "Frank Sinatra - Silent Night (78 RPM)",
+      "description": "Frank Sinatra - Silent Night (78 RPM)",
+      "uri": "https://www.youtube.com/watch?v=o0k9y2npFmk"
+    },
+    {
+      "duration": 203,
+      "embed": true,
+      "title": "Frank Sinatra - Adeste Fideles (78 RPM)",
+      "description": "Frank Sinatra - Adeste Fideles (78 RPM)",
+      "uri": "https://www.youtube.com/watch?v=8xzMA-jz0aY"
+    }
+  ],
+  "series": [
+    {
+      "name": "Columbia Hall Of Fame",
+      "entity_type": "2",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/263402",
+      "id": 263402,
+      "entity_type_name": "Series"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "4-50079",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "year": 1955,
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 3,
+    "contributors": [
+      {
+        "username": "gle_98",
+        "resource_url": "https://api.discogs.com/users/gle_98"
+      }
+    ],
+    "have": 2,
+    "submitter": {
+      "username": "gle_98",
+      "resource_url": "https://api.discogs.com/users/gle_98"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "images": [
+    {
+      "uri": "",
+      "height": 598,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 598,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 7685240,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "Silent Night, Holy Night / Adeste Fideles",
+  "date_changed": "2015-11-04T19:30:21-08:00",
+  "master_id": 909293,
+  "lowest_price": 11.54,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1955",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single",
+        "Reissue"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/909293",
+  "released": "1955",
+  "date_added": "2015-11-04T19:23:02-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Orchestra, Directed By",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Ken Lane Singers",
+          "anv": "",
+          "tracks": "",
+          "role": "Backing Vocals",
+          "resource_url": "https://api.discogs.com/artists/377045",
+          "id": 377045
+        },
+        {
+          "join": "",
+          "name": "Franz Gruber",
+          "anv": "Gruber",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/595046",
+          "id": 595046
+        },
+        {
+          "join": "",
+          "name": "Joseph Mohr",
+          "anv": "Mohr",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/632100",
+          "id": 632100
+        }
+      ],
+      "title": "Silent Night, Holy Night"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "Adeste Fideles (O, Come All Ye Faithful)"
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "(ZSP 6958)"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "(ZSP 6959)"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Silent-Night-Holy-Night-Adeste-Fideles/release/7685240",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/7685240",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "13-33011",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 3,
+    "contributors": [
+      {
+        "username": "blackbookpress",
+        "resource_url": "https://api.discogs.com/users/blackbookpress"
+      }
+    ],
+    "have": 9,
+    "submitter": {
+      "username": "blackbookpress",
+      "resource_url": "https://api.discogs.com/users/blackbookpress"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 595,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 595,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 8709066,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "Nancy / Ol' Man River",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2016-06-27T16:09:28-07:00",
+  "master_id": 1021521,
+  "lowest_price": 2.62,
+  "status": "Accepted",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/1021521",
+  "date_added": "2016-06-27T16:07:13-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Conductor [Orchestra Under The Direction Of]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:25",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Jimmy Van Heusen",
+          "anv": "Van Heusen",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/255313",
+          "id": 255313
+        },
+        {
+          "join": "",
+          "name": "Phil Silvers",
+          "anv": "Silvers",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/329688",
+          "id": 329688
+        }
+      ],
+      "title": "Nancy (With The Laughing Face)"
+    },
+    {
+      "duration": "4:06",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Hammerstein-Kern",
+          "anv": "O. Hammerstein II-J. Kern",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/939545",
+          "id": 939545
+        }
+      ],
+      "title": "Ol' Man River"
+    }
+  ],
+  "notes": "A - April 1955\nB - January 1941",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Label Side A",
+      "value": "ZSP 35841"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Label Side B",
+      "value": "ZSP 57025"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Runout, Side A, Etched",
+      "value": "P (p)  Ⓚ ZSP 358-841-1BC  A1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Runout, Side B, Etched ",
+      "value": "IV P (p) Ⓚ ZSP57025-1AH  A3"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Nancy-Ol-Man-River/release/8709066",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/8709066",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [
+    {
+      "name": "Columbia Hall Of Fame",
+      "entity_type": "2",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/263402",
+      "id": 263402,
+      "entity_type_name": "Series"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "13-33011",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 1,
+      "average": 4
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "msrdanov",
+        "resource_url": "https://api.discogs.com/users/msrdanov"
+      },
+      {
+        "username": "disneyfacts",
+        "resource_url": "https://api.discogs.com/users/disneyfacts"
+      },
+      {
+        "username": "blackbookpress",
+        "resource_url": "https://api.discogs.com/users/blackbookpress"
+      },
+      {
+        "username": "punkrecords",
+        "resource_url": "https://api.discogs.com/users/punkrecords"
+      },
+      {
+        "username": "blurayven",
+        "resource_url": "https://api.discogs.com/users/blurayven"
+      }
+    ],
+    "have": 21,
+    "submitter": {
+      "username": "msrdanov",
+      "resource_url": "https://api.discogs.com/users/msrdanov"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1975,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 2843711,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 13,
+  "title": "Nancy / Ol' Man River",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-04-28T19:40:40-07:00",
+  "master_id": 1021521,
+  "lowest_price": 1.12,
+  "status": "Accepted",
+  "released_formatted": "1975",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/1021521",
+  "released": "1975",
+  "date_added": "2011-04-23T17:26:23-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Conductor",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:25",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Jimmy Van Heusen",
+          "anv": "Van Heusen",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/255313",
+          "id": 255313
+        },
+        {
+          "join": "",
+          "name": "Phil Silvers",
+          "anv": "Silvers",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/329688",
+          "id": 329688
+        }
+      ],
+      "title": "Nancy (With The Laughing Face)"
+    },
+    {
+      "duration": "4:06",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Hammerstein-Kern",
+          "anv": "O. Hammerstein II-J. Kern",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/939545",
+          "id": 939545
+        }
+      ],
+      "title": "Ol' Man River"
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Label Side A",
+      "value": "ZSP 35841"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Label Side B",
+      "value": "ZSP 57025"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Nancy-Ol-Man-River/release/2843711",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/2843711",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [
+    {
+      "name": "Columbia Hall Of Fame",
+      "entity_type": "2",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/263402",
+      "id": 263402,
+      "entity_type_name": "Series"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "13-33306",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 1,
+      "average": 3
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "gle_98",
+        "resource_url": "https://api.discogs.com/users/gle_98"
+      },
+      {
+        "username": "mickov",
+        "resource_url": "https://api.discogs.com/users/mickov"
+      },
+      {
+        "username": "d-of",
+        "resource_url": "https://api.discogs.com/users/d-of"
+      }
+    ],
+    "have": 14,
+    "submitter": {
+      "username": "gle_98",
+      "resource_url": "https://api.discogs.com/users/gle_98"
+    },
+    "data_quality": "Complete and Correct"
+  },
+  "year": 1976,
+  "images": [
+    {
+      "uri": "",
+      "height": 595,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 7712361,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 5,
+  "title": "The Birth Of The Blues / I've Got A Crush On You",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-04-22T23:51:34-07:00",
+  "master_id": 824446,
+  "lowest_price": 3.28,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1976",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single",
+        "Reissue",
+        "Mono"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/824446",
+  "released": "1976",
+  "date_added": "2015-11-11T05:20:48-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Conductor",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:27",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "DeSylva, Brown And Henderson",
+          "anv": "B. DeSylva - L. Brown - R. Henderson",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/1427593",
+          "id": 1427593
+        }
+      ],
+      "title": "The Birth Of The Blues (From \"George White's Scandals\")"
+    },
+    {
+      "duration": "3:15",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "George & Ira Gershwin",
+          "anv": "I. Gershwin - G. Gershwin",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/640665",
+          "id": 640665
+        }
+      ],
+      "title": "I've Got A Crush On You (From \"Strike Up The Band\")"
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "A side label",
+      "value": "ZSP 162038"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B side label",
+      "value": "ZSP 9257"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-The-Birth-Of-The-Blues-Ive-Got-A-Crush-On-You/release/7712361",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/7712361",
+  "data_quality": "Complete and Correct"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "13-33306",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    },
+    {
+      "name": "Collectables",
+      "entity_type": "1",
+      "catno": "13-33306",
+      "resource_url": "https://api.discogs.com/labels/29810",
+      "id": 29810,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "blurayven",
+        "resource_url": "https://api.discogs.com/users/blurayven"
+      },
+      {
+        "username": "seehaas",
+        "resource_url": "https://api.discogs.com/users/seehaas"
+      }
+    ],
+    "have": 3,
+    "submitter": {
+      "username": "blurayven",
+      "resource_url": "https://api.discogs.com/users/blurayven"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 10208991,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "The Birth Of The Blues / I've Got A Crush On You",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2018-03-16T04:39:01-07:00",
+  "master_id": 824446,
+  "lowest_price": 9.23,
+  "styles": [
+    "Vocal",
+    "Swing",
+    "Ballad"
+  ],
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single",
+        "Reissue",
+        "Mono"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/824446",
+  "date_added": "2017-04-28T19:37:34-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Conductor",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:27",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "DeSylva, Brown And Henderson",
+          "anv": "B. DeSylva - L. Brown - R. Henderson",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/1427593",
+          "id": 1427593
+        }
+      ],
+      "title": "The Birth Of The Blues (From \"George White's Scandals\")"
+    },
+    {
+      "duration": "3:15",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "George & Ira Gershwin",
+          "anv": "I. Gershwin - G. Gershwin",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/640665",
+          "id": 640665
+        }
+      ],
+      "title": "I've Got A Crush On You (From \"Strike Up The Band\")"
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "A side label",
+      "value": "ZSP 162038"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B side label",
+      "value": "ZSP 9257"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-The-Birth-Of-The-Blues-Ive-Got-A-Crush-On-You/release/10208991",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/10208991",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [
+    {
+      "name": "Columbia Hall Of Fame",
+      "entity_type": "2",
+      "catno": "13-33319",
+      "resource_url": "https://api.discogs.com/labels/263402",
+      "id": 263402,
+      "entity_type_name": "Series"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "13-33319",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 1,
+      "average": 5
+    },
+    "want": 3,
+    "contributors": [
+      {
+        "username": "jadedtom",
+        "resource_url": "https://api.discogs.com/users/jadedtom"
+      },
+      {
+        "username": "Ktrump5",
+        "resource_url": "https://api.discogs.com/users/Ktrump5"
+      }
+    ],
+    "have": 11,
+    "submitter": {
+      "username": "jadedtom",
+      "resource_url": "https://api.discogs.com/users/jadedtom"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 508,
+      "width": 510,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 599,
+      "width": 595,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 2134916,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 8,
+  "title": "September Song / Among My Souvenirs",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2012-02-05T21:27:09-08:00",
+  "master_id": 407405,
+  "lowest_price": 1.5,
+  "styles": [
+    "Vocal"
+  ],
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/407405",
+  "date_added": "2010-02-11T10:48:59-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Conductor",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:10",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Kurt Weill",
+          "anv": "K. Weill",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/407111",
+          "id": 407111
+        },
+        {
+          "join": "",
+          "name": "Maxwell Anderson",
+          "anv": "M. Anderson",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/226814",
+          "id": 226814
+        }
+      ],
+      "title": "September Song"
+    },
+    {
+      "duration": "3:20",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Edgar Leslie",
+          "anv": "E. Leslie",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/620388",
+          "id": 620388
+        },
+        {
+          "join": "",
+          "name": "Horatio Nicholls",
+          "anv": "H. Nicholls",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/713915",
+          "id": 713915
+        }
+      ],
+      "title": "Among My Souvenirs"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-September-Song-Among-My-Souvenirs/release/2134916",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/2134916",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "13-33319",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    },
+    {
+      "name": "Collectables",
+      "entity_type": "1",
+      "catno": "13-33319",
+      "resource_url": "https://api.discogs.com/labels/29810",
+      "id": 29810,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 3,
+    "contributors": [
+      {
+        "username": "degm",
+        "resource_url": "https://api.discogs.com/users/degm"
+      },
+      {
+        "username": "Ktrump5",
+        "resource_url": "https://api.discogs.com/users/Ktrump5"
+      },
+      {
+        "username": "KCJammer",
+        "resource_url": "https://api.discogs.com/users/KCJammer"
+      },
+      {
+        "username": "blurayven",
+        "resource_url": "https://api.discogs.com/users/blurayven"
+      }
+    ],
+    "have": 5,
+    "submitter": {
+      "username": "degm",
+      "resource_url": "https://api.discogs.com/users/degm"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 3369608,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 6,
+  "title": "September Song / Among My Souvenirs",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-04-28T19:36:59-07:00",
+  "master_id": 407405,
+  "lowest_price": 4.96,
+  "styles": [
+    "Vocal"
+  ],
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single",
+        "Reissue"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/407405",
+  "date_added": "2012-01-27T09:38:35-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Conductor",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "3:10",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Kurt Weill",
+          "anv": "K. Weill",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/407111",
+          "id": 407111
+        },
+        {
+          "join": "",
+          "name": "Maxwell Anderson",
+          "anv": "M. Anderson",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/226814",
+          "id": 226814
+        }
+      ],
+      "title": "September Song"
+    },
+    {
+      "duration": "3:20",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Edgar Leslie",
+          "anv": "E. Leslie",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/620388",
+          "id": 620388
+        },
+        {
+          "join": "",
+          "name": "Horatio Nicholls",
+          "anv": "H. Nicholls",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/713915",
+          "id": 713915
+        }
+      ],
+      "title": "Among My Souvenirs"
+    }
+  ],
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-September-Song-Among-My-Souvenirs/release/3369608",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/3369608",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "6 - 924",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 2,
+      "average": 5
+    },
+    "want": 3,
+    "contributors": [
+      {
+        "username": "Angelogo",
+        "resource_url": "https://api.discogs.com/users/Angelogo"
+      }
+    ],
+    "have": 1,
+    "submitter": {
+      "username": "Angelogo",
+      "resource_url": "https://api.discogs.com/users/Angelogo"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 592,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 646,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 10374415,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 0,
+  "title": "Let It Snow! Let It Snow! Let It Snow!",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-05-31T12:43:46-07:00",
+  "lowest_price": null,
+  "status": "Accepted",
+  "estimated_weight": 60,
+  "date_added": "2017-05-31T00:16:43-07:00",
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "Let it Snow! Let It Snow! Let It Snow!"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "Remember Me In Your Dreams"
+    }
+  ],
+  "extraartists": [],
+  "country": "US",
+  "identifiers": [],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Let-It-Snow-Let-It-Snow-Let-It-Snow/release/10374415",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "resource_url": "https://api.discogs.com/releases/10374415",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "JZSP 116427",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    },
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "JZSP 116428",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "westportrecords",
+        "resource_url": "https://api.discogs.com/users/westportrecords"
+      },
+      {
+        "username": "chn74",
+        "resource_url": "https://api.discogs.com/users/chn74"
+      },
+      {
+        "username": "degm",
+        "resource_url": "https://api.discogs.com/users/degm"
+      }
+    ],
+    "have": 6,
+    "submitter": {
+      "username": "westportrecords",
+      "resource_url": "https://api.discogs.com/users/westportrecords"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1966,
+  "images": [
+    {
+      "uri": "",
+      "height": 602,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 602,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 8787695,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 0,
+  "title": "White Christmas / Have Yourself A Merry Little Christmas",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2017-06-09T15:31:19-07:00",
+  "lowest_price": null,
+  "status": "Accepted",
+  "released_formatted": "1966",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Promo"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "released": "1966",
+  "date_added": "2016-07-17T08:55:24-07:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "3:23",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Irving Berlin",
+          "anv": "I. Berlin",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/508131",
+          "id": 508131
+        }
+      ],
+      "title": "White Christmas"
+    },
+    {
+      "duration": "2:33",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Hugh Martin",
+          "anv": "H. Martin",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/615544",
+          "id": 615544
+        },
+        {
+          "join": "",
+          "name": "Ralph Blane",
+          "anv": "Blane",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/615542",
+          "id": 615542
+        }
+      ],
+      "title": "Have Yourself A Merry Little Christmas"
+    }
+  ],
+  "notes": "From the Harmony album \"Have Yourself A Merry Little Christmas\".\n\nTrack A published by Irving Berlin, Inc.\nTrack B published by Leo Feist, Inc.",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "A side",
+      "value": "JZSP 116427-1A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "B side",
+      "value": "JZSP 116428-1A"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Irving Berlin Inc.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/330198",
+      "id": 330198,
+      "entity_type_name": "Published By"
+    },
+    {
+      "name": "Leo Feist, Inc.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/285061",
+      "id": 285061,
+      "entity_type_name": "Published By"
+    }
+  ],
+  "uri": "https://www.discogs.com/Frank-Sinatra-White-Christmas-Have-Yourself-A-Merry-Little-Christmas/release/8787695",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/8787695",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [],
+  "labels": [
+    {
+      "name": "Gold-Mor",
+      "entity_type": "1",
+      "catno": "GM 00005",
+      "resource_url": "https://api.discogs.com/labels/223720",
+      "id": 223720,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "johninrp",
+        "resource_url": "https://api.discogs.com/users/johninrp"
+      },
+      {
+        "username": "DivariKangas",
+        "resource_url": "https://api.discogs.com/users/DivariKangas"
+      },
+      {
+        "username": "EBIS",
+        "resource_url": "https://api.discogs.com/users/EBIS"
+      },
+      {
+        "username": "jornaskheim",
+        "resource_url": "https://api.discogs.com/users/jornaskheim"
+      },
+      {
+        "username": "OOTPRGRB",
+        "resource_url": "https://api.discogs.com/users/OOTPRGRB"
+      }
+    ],
+    "have": 5,
+    "submitter": {
+      "username": "johninrp",
+      "resource_url": "https://api.discogs.com/users/johninrp"
+    },
+    "data_quality": "Correct"
+  },
+  "year": 1974,
+  "images": [
+    {
+      "uri": "",
+      "height": 289,
+      "width": 283,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 604,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 7034515,
+  "artists_sort": "Harry James (2)",
+  "genres": [
+    "Jazz"
+  ],
+  "thumb": "",
+  "num_for_sale": 6,
+  "title": "You Made Me Love You / All Or Nothing At All",
+  "artists": [
+    {
+      "join": "",
+      "name": "Harry James (2)",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/313097",
+      "id": 313097
+    }
+  ],
+  "date_changed": "2018-08-11T20:23:31-07:00",
+  "lowest_price": 1.15,
+  "status": "Accepted",
+  "released_formatted": "Feb 1974",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "Jukebox"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "released": "1974-02-00",
+  "date_added": "2015-05-20T15:20:34-07:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "3:10",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "James V. Monaco",
+          "anv": "J. Monaco",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/693835",
+          "id": 693835
+        },
+        {
+          "join": "",
+          "name": "Joseph McCarthy",
+          "anv": "J. McCarthy",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/638132",
+          "id": 638132
+        }
+      ],
+      "title": "You Made Me Love You  "
+    },
+    {
+      "duration": "2:56",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Arthur Altman",
+          "anv": "A.Altman",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/721303",
+          "id": 721303
+        },
+        {
+          "join": "",
+          "name": "Jack Lawrence (2)",
+          "anv": "J. Lawrence",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/638169",
+          "id": 638169
+        }
+      ],
+      "title": "All Or Nothing At All"
+    }
+  ],
+  "notes": "A jukebox only single available thru one stops which market Gold-Mor product,",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Label A",
+      "value": "ZSS 159164"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Label B",
+      "value": "ZSS 159165"
+    },
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Columbia Records",
+      "entity_type": "9",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/93330",
+      "id": 93330,
+      "entity_type_name": "Distributed By"
+    },
+    {
+      "name": "CBS Inc.",
+      "entity_type": "4",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/211334",
+      "id": 211334,
+      "entity_type_name": "Record Company"
+    },
+    {
+      "name": "Broadway Music Corp.",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/364795",
+      "id": 364795,
+      "entity_type_name": "Published By"
+    },
+    {
+      "name": "MCA Music",
+      "entity_type": "21",
+      "catno": "",
+      "resource_url": "https://api.discogs.com/labels/32380",
+      "id": 32380,
+      "entity_type_name": "Published By"
+    }
+  ],
+  "uri": "https://www.discogs.com/Harry-James-You-Made-Me-Love-You-All-Or-Nothing-At-All/release/7034515",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/7034515",
+  "data_quality": "Correct"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "1-106",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "Hawnster",
+        "resource_url": "https://api.discogs.com/users/Hawnster"
+      },
+      {
+        "username": "Soundah",
+        "resource_url": "https://api.discogs.com/users/Soundah"
+      },
+      {
+        "username": "AwesomeAndrew62",
+        "resource_url": "https://api.discogs.com/users/AwesomeAndrew62"
+      }
+    ],
+    "have": 3,
+    "submitter": {
+      "username": "Hawnster",
+      "resource_url": "https://api.discogs.com/users/Hawnster"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1949,
+  "images": [
+    {
+      "uri": "",
+      "height": 601,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 9932181,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 1,
+  "title": "Sunflower",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2018-05-08T05:53:17-07:00",
+  "master_id": 513175,
+  "lowest_price": 29.15,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1949",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "33 ⅓ RPM",
+        "Single",
+        "Promo"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/513175",
+  "released": "1949",
+  "date_added": "2017-03-05T15:30:23-08:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "2:51",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Mack David",
+          "anv": "",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/313469",
+          "id": 313469
+        }
+      ],
+      "title": "Sunflower"
+    },
+    {
+      "duration": "3:00",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Mitchell Ayres",
+          "anv": "",
+          "tracks": "",
+          "role": "Directed By",
+          "resource_url": "https://api.discogs.com/artists/1051280",
+          "id": 1051280
+        },
+        {
+          "join": "",
+          "name": "Frank Loesser",
+          "anv": "",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/439662",
+          "id": 439662
+        }
+      ],
+      "title": "Once In Love With Amy"
+    }
+  ],
+  "notes": "\"Once In Love With Amy\" From \"Where's Charley?\"",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A Stamped",
+      "value": "ZLP 702 1A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B Stamped",
+      "value": "ZLP 703 1A"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Sunflower/release/9932181",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/9932181",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "1-106",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "Soundah",
+        "resource_url": "https://api.discogs.com/users/Soundah"
+      },
+      {
+        "username": "AwesomeAndrew62",
+        "resource_url": "https://api.discogs.com/users/AwesomeAndrew62"
+      }
+    ],
+    "have": 4,
+    "submitter": {
+      "username": "Soundah",
+      "resource_url": "https://api.discogs.com/users/Soundah"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1949,
+  "images": [
+    {
+      "uri": "",
+      "height": 599,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 599,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 11280347,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 0,
+  "title": "Sunflower",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2018-05-08T11:14:29-07:00",
+  "master_id": 513175,
+  "lowest_price": null,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "Jan 1949",
+  "formats": [
+    {
+      "text": "Microgroove",
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "33 ⅓ RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/513175",
+  "released": "1949-01-00",
+  "date_added": "2017-12-15T03:03:57-08:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Mack David",
+          "anv": "David",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/313469",
+          "id": 313469
+        }
+      ],
+      "title": "Sunflower"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Mitchell Ayres",
+          "anv": "",
+          "tracks": "",
+          "role": "Directed By [Orchestra]",
+          "resource_url": "https://api.discogs.com/artists/1051280",
+          "id": 1051280
+        },
+        {
+          "join": "",
+          "name": "Frank Loesser",
+          "anv": "",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/439662",
+          "id": 439662
+        }
+      ],
+      "title": "Once In Love With Amy"
+    }
+  ],
+  "notes": "One of the first 7\" 33rpm vinyl microgroove singles released by Columbia in January 1949.\nSide B from \"Where's Charley?\"",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A: Stamped",
+      "value": "ZLP 702 1A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B: Stamped",
+      "value": "ZLP 703 1A"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Sunflower/release/11280347",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/11280347",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "1-174",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "Hawnster",
+        "resource_url": "https://api.discogs.com/users/Hawnster"
+      },
+      {
+        "username": "AwesomeAndrew62",
+        "resource_url": "https://api.discogs.com/users/AwesomeAndrew62"
+      }
+    ],
+    "have": 3,
+    "submitter": {
+      "username": "Hawnster",
+      "resource_url": "https://api.discogs.com/users/Hawnster"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 1949,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 9932232,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop",
+    "Stage & Screen"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "Some Enchanted Evening",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2018-05-08T12:23:00-07:00",
+  "master_id": 1145388,
+  "lowest_price": 5,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1949",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "33 ⅓ RPM",
+        "Single"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/1145388",
+  "released": "1949",
+  "date_added": "2017-03-05T15:46:08-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Orchestra]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    },
+    {
+      "join": "",
+      "name": "Rodgers & Hammerstein",
+      "anv": "Hammerstein II - Rodgers",
+      "tracks": "",
+      "role": "Written-By",
+      "resource_url": "https://api.discogs.com/artists/284099",
+      "id": 284099
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "Some Enchanted Evening"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "Bali Ha'i"
+    }
+  ],
+  "notes": "From \"South Pacific\"",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A Stamped",
+      "value": "ZLP 923 1A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B Stamped",
+      "value": "ZLP 924 1B"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Some-Enchanted-Evening/release/9932232",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/9932232",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "videos": [
+    {
+      "duration": 186,
+      "embed": true,
+      "title": "Frank Sinatra   Sorry 1950",
+      "description": "Frank Sinatra   Sorry 1950",
+      "uri": "https://www.youtube.com/watch?v=J1cxVknMOWE"
+    }
+  ],
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "1-440",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "year": 1950,
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 2,
+    "contributors": [
+      {
+        "username": "nelgin",
+        "resource_url": "https://api.discogs.com/users/nelgin"
+      },
+      {
+        "username": "Soundah",
+        "resource_url": "https://api.discogs.com/users/Soundah"
+      },
+      {
+        "username": "popcrimes",
+        "resource_url": "https://api.discogs.com/users/popcrimes"
+      }
+    ],
+    "have": 3,
+    "submitter": {
+      "username": "nelgin",
+      "resource_url": "https://api.discogs.com/users/nelgin"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "artists": [
+    {
+      "join": "And",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    },
+    {
+      "join": "",
+      "name": "The Modernaires",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/322279",
+      "id": 322279
+    }
+  ],
+  "images": [
+    {
+      "uri": "",
+      "height": 589,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 580,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 11620608,
+  "artists_sort": "Frank Sinatra And Modernaires, The",
+  "genres": [
+    "Jazz",
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 1,
+  "title": "Sorry / Why Remind Me",
+  "date_changed": "2018-08-03T09:43:14-07:00",
+  "master_id": 1177655,
+  "lowest_price": 8,
+  "styles": [
+    "Vocal"
+  ],
+  "released_formatted": "1950",
+  "formats": [
+    {
+      "text": "Microgroove",
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "33 ⅓ RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/1177655",
+  "released": "1950",
+  "date_added": "2018-02-25T02:14:37-08:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Orchestra]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Buddy Pepper",
+          "anv": "Pepper",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/665061",
+          "id": 665061
+        },
+        {
+          "join": "",
+          "name": "Richard Whiting",
+          "anv": "Whiting",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/673139",
+          "id": 673139
+        }
+      ],
+      "title": "Sorry"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Doris Tauber",
+          "anv": "Tauber",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/717272",
+          "id": 717272
+        },
+        {
+          "join": "",
+          "name": "Sis Willner",
+          "anv": "Willner",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/2928264",
+          "id": 2928264
+        }
+      ],
+      "title": "Why Remind Me"
+    }
+  ],
+  "notes": "Side A recorded November 8, 1949, Hollywood, CA.\r\n\r\nSide B recorded October 30, 1949, Hollywood, CA.",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "description": "Side A, Runout",
+      "value": "ZLP 1892 1A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "description": "Side B, Runout",
+      "value": "ZLP 1893 10"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-And-The-Modernaires-Sorry-Why-Remind-Me/release/11620608",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/11620608",
+  "data_quality": "Needs Vote"
+},
+{
+  "status": "Accepted",
+  "identifiers": [],
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "1-508",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "CarmenDeGiron",
+        "resource_url": "https://api.discogs.com/users/CarmenDeGiron"
+      },
+      {
+        "username": "disneyfacts",
+        "resource_url": "https://api.discogs.com/users/disneyfacts"
+      },
+      {
+        "username": "seppuku",
+        "resource_url": "https://api.discogs.com/users/seppuku"
+      },
+      {
+        "username": "DiscogsUpdateBot",
+        "resource_url": "https://api.discogs.com/users/DiscogsUpdateBot"
+      }
+    ],
+    "have": 5,
+    "submitter": {
+      "username": "CarmenDeGiron",
+      "resource_url": "https://api.discogs.com/users/CarmenDeGiron"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 599,
+      "width": 599,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 4942337,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Jazz",
+    "Pop",
+    "Classical"
+  ],
+  "thumb": "",
+  "num_for_sale": 0,
+  "title": "Begin The Beguine / You'll Never Walk Alone",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2014-08-08T07:21:13-07:00",
+  "lowest_price": null,
+  "styles": [
+    "Easy Listening"
+  ],
+  "estimated_weight": 60,
+  "date_added": "2013-09-25T07:25:47-07:00",
+  "extraartists": [
+    {
+      "join": "",
+      "name": "Axel Stordahl",
+      "anv": "",
+      "tracks": "",
+      "role": "Directed By [Orchestra]",
+      "resource_url": "https://api.discogs.com/artists/299962",
+      "id": 299962
+    }
+  ],
+  "country": "US",
+  "tracklist": [
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Cole Porter",
+          "anv": "",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/264026",
+          "id": 264026
+        }
+      ],
+      "title": "Begin The Beguine",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        }
+      ],
+      "duration": "",
+      "position": "A"
+    },
+    {
+      "extraartists": [
+        {
+          "join": "",
+          "name": "Rodgers & Hammerstein",
+          "anv": "Hammerstein II-Rodgers",
+          "tracks": "",
+          "role": "Written-By",
+          "resource_url": "https://api.discogs.com/artists/284099",
+          "id": 284099
+        }
+      ],
+      "title": "You'll Never Walk Alone",
+      "type_": "track",
+      "artists": [
+        {
+          "join": "With",
+          "name": "Frank Sinatra",
+          "anv": "",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/52833",
+          "id": 52833
+        },
+        {
+          "join": "",
+          "name": "Ken Lane Singers",
+          "anv": "The Ken Lane Singers",
+          "tracks": "",
+          "role": "",
+          "resource_url": "https://api.discogs.com/artists/377045",
+          "id": 377045
+        }
+      ],
+      "duration": "",
+      "position": "B"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Begin-The-Beguine-Youll-Never-Walk-Alone/release/4942337",
+  "formats": [
+    {
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "33 ⅓ RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "resource_url": "https://api.discogs.com/releases/4942337",
+  "data_quality": "Needs Vote"
+},
+{
+  "series": [],
+  "labels": [
+    {
+      "name": "Columbia",
+      "entity_type": "1",
+      "catno": "1-511",
+      "resource_url": "https://api.discogs.com/labels/1866",
+      "id": 1866,
+      "entity_type_name": "Label"
+    }
+  ],
+  "community": {
+    "status": "Accepted",
+    "rating": {
+      "count": 0,
+      "average": 0
+    },
+    "want": 1,
+    "contributors": [
+      {
+        "username": "kanesvilleman",
+        "resource_url": "https://api.discogs.com/users/kanesvilleman"
+      },
+      {
+        "username": "GroovingPict",
+        "resource_url": "https://api.discogs.com/users/GroovingPict"
+      },
+      {
+        "username": "Soundah",
+        "resource_url": "https://api.discogs.com/users/Soundah"
+      }
+    ],
+    "have": 3,
+    "submitter": {
+      "username": "kanesvilleman",
+      "resource_url": "https://api.discogs.com/users/kanesvilleman"
+    },
+    "data_quality": "Needs Vote"
+  },
+  "year": 0,
+  "images": [
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "primary",
+      "uri150": ""
+    },
+    {
+      "uri": "",
+      "height": 600,
+      "width": 600,
+      "resource_url": "",
+      "type": "secondary",
+      "uri150": ""
+    }
+  ],
+  "format_quantity": 1,
+  "id": 8720871,
+  "artists_sort": "Frank Sinatra",
+  "genres": [
+    "Pop"
+  ],
+  "thumb": "",
+  "num_for_sale": 2,
+  "title": "Among My Souvenirs",
+  "artists": [
+    {
+      "join": "",
+      "name": "Frank Sinatra",
+      "anv": "",
+      "tracks": "",
+      "role": "",
+      "resource_url": "https://api.discogs.com/artists/52833",
+      "id": 52833
+    }
+  ],
+  "date_changed": "2018-05-09T05:12:11-07:00",
+  "master_id": 407405,
+  "lowest_price": 14,
+  "status": "Accepted",
+  "formats": [
+    {
+      "text": "microgroove",
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "33 ⅓ RPM"
+      ],
+      "name": "Vinyl"
+    }
+  ],
+  "estimated_weight": 60,
+  "master_url": "https://api.discogs.com/masters/407405",
+  "date_added": "2016-06-30T13:00:07-07:00",
+  "extraartists": [],
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A",
+      "type_": "track",
+      "title": "Among My Souvenirs"
+    },
+    {
+      "duration": "",
+      "position": "B",
+      "type_": "track",
+      "title": "September Song"
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "ZLP 2063 1A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "ZLP 2064 1A"
+    }
+  ],
+  "companies": [],
+  "uri": "https://www.discogs.com/Frank-Sinatra-Among-My-Souvenirs/release/8720871",
+  "country": "US",
+  "resource_url": "https://api.discogs.com/releases/8720871",
+  "data_quality": "Needs Vote"
+}]
