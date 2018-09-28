@@ -1,7 +1,7 @@
 [{
   "status": "Accepted",
   "series": [],
-  //labels map to bf:Organizations, not sure we want to do when "data_quality": "Needs Major Changes, e.g. https://api.discogs.com/labels/859570
+  // :instance1 bf:provisionActivity :provisionActivity1. :provisionActivity1 bf:agent <URIs based on strings found in the "labels:" "name:" > .
   "labels": [
     {
       "name": "TV Music Co.",
@@ -13,7 +13,7 @@
       "entity_type_name": "Label"
     }
   ],
-  //Ignore community
+  // Ignore community
   "community": {
     "status": "Accepted",
     "rating": {
@@ -38,7 +38,9 @@
     },
     "data_quality": "Needs Vote"
   },
-  // Map to bf:Contribution/bf:date on bf:Instance, or bf:copyrightDate
+  // For releases that do not have a related master, also map to bf:Contribution/bf:date on bf:Work
+  // :work1 bf:contribution :contribution1 . :contribution1 bf:date "1971" . 
+  // :instance1 bf:provisionActivity :provisionActivity1. :provisionActivity1 bf:date "1971" .
   "year": 1971,
   "images": [
     {
@@ -59,18 +61,24 @@
     }
   ],
   "format_quantity": 1,
-  // bf:Identifier
+  // :instance1 bf:identifiedBy :identifier1. :identifier1 rdfs:value "7141302" .
+  // bf:Identifier probably needs a subclass for Discogs.
   "id": 7141302,
   // ignore, use "artists"
   "artists_sort": "Frank Sinatra",
   // bf:genreForm, but would have to reconcile with LCGFT, could be the search value in the lookup
+  // :work1 bf:genreForm <URIs based on strings found in "genre:"> .
   "genres": [
     "Pop"
   ],
   "thumb": "",
   "num_for_sale": 4,
+  // For releases that do not have a related master, also map to bf:Title/rdfs:value on bf:Work
+  // :work1 bf:title :title1 . :title1 rdfs:value "I Guess I'll Have To Dream The Rest" . 
+  // :instance1 bf:title :title2 . :title2 rdfs:value "I Guess I'll Have To Dream The Rest" . 
   "title": "I Guess I'll Have To Dream The Rest",
-  // bf:Contribution/bf:agent. Would need to Reconcile or use as search in lookup. Need to decide how to handle principle performers and their roles.
+  // bf:Contribution/bf:agent. Would need to Reconcile to LC RWOs (there are often links from the artist json to wikipedia pages/entities to VIAF to LC RWO's) or use as search in lookup. Need to decide how to handle principle performers and their roles.
+  // :work1 bf:contribution :contribution1 . :contribution1 bf:agent <URIs based on strings found in "artists:"> .
   "artists": [
     {
       "join": "",
@@ -85,6 +93,7 @@
   "date_changed": "2016-08-12T15:24:25-07:00",
   "lowest_price": 7.35,
   "styles": [
+  // :work1 bf:genreForm <URIs based on strings found in "styles":> .
     "Ballad"
   ],
   "released_formatted": "1971",
@@ -111,7 +120,8 @@
   //bf:Provision / bf:date
   "released": "1971",
   "date_added": "2015-06-18T07:33:05-07:00",
-  // bf:Contribution/bf:agent. Would need to Reconcile or use as search in lookup. Need to decide how to handle secondary performers and their roles.
+  // bf:Contribution/bf:agent. Would need to Reconcile to LC RWOs (there are often links from the artist json to wikipedia pages/entities to VIAF to LC RWO's) or use as search in lookup. Need to decide how to handle principle performers and their roles.
+  // :work1 bf:contribution :contribution1 . :contribution1 bf:agent <URIs based on strings found in "artists:"> .
   "extraartists": [
     {
       "join": "",
@@ -132,7 +142,12 @@
       "id": 902491
     }
   ],
-  // bf:hasPart bf:Work, and/or bf:tableOfContents/bf:TableOfContents
+  // :work1 bf:hasPart :work2 , :work3 . 
+  // :work2 bf:title :title2 ; bf:duration "2:42" . 
+  // :work3 bf:title :title3 ; bf:duration "2:42" . 
+  // :title2 rdfs:value "I Guess I'll Have To Dream The Rest" .
+  // :title3 rdfs:value "I Guess I'll Have To Dream The Rest" .
+  // Need to figure out side A and B on Instance .
   "tracklist": [
     {
       "duration": "2:42",
