@@ -1,7 +1,8 @@
 [{
   "status": "Accepted",
   "series": [],
-  // :instance1 bf:provisionActivity :provisionActivity1. :provisionActivity1 bf:agent <URIs based on strings found in the "labels:" "name:" > .
+  // :instance1 bf:provisionActivity :provisionActivity1. :provisionActivity1 bf:agent <URIs based on strings found in the "labels:" "name:" > , bf:role :role1.
+  // :role1 rdfs:label "label" .
   "labels": [
     {
       "name": "TV Music Co.",
@@ -38,9 +39,7 @@
     },
     "data_quality": "Needs Vote"
   },
-  // For releases that do not have a related master, also map to bf:Contribution/bf:date on bf:Work
-  // :work1 bf:contribution :contribution1 . :contribution1 bf:date "1971" . 
-  // :instance1 bf:provisionActivity :provisionActivity1. :provisionActivity1 bf:date "1971" .
+// Ignore, use released.
   "year": 1971,
   "images": [
     {
@@ -67,7 +66,7 @@
   // ignore, use "artists"
   "artists_sort": "Frank Sinatra",
   // bf:genreForm, but would have to reconcile with LCGFT, could be the search value in the lookup
-  // :work1 bf:genreForm <URIs based on strings found in "genre:"> .
+  // :work1 bf:genreForm <URIs based on strings found in "genre:"> . Tim has mapped these values to LCGFT values.
   "genres": [
     "Pop"
   ],
@@ -93,31 +92,33 @@
   "date_changed": "2016-08-12T15:24:25-07:00",
   "lowest_price": 7.35,
   "styles": [
-  // :work1 bf:genreForm <URIs based on strings found in "styles":> .
+  // :work1 bf:genreForm <URIs based on strings found in "styles":> . Tim has mapped these values to LCGFT values.
     "Ballad"
   ],
   "released_formatted": "1971",
-  // each value would need to be mapped to a resource
   "formats": [
     {
       "qty": "1",
       "descriptions": [
-        // Measurement model or bf:dimensions
+        // :instance1 bf:dimensions "7 in." ; bf:soundCharacteristic :playingSpeed1 , :playbackChannel1 , :playbackChannel2 ; bf:editionStatement "Promo" .
+        // playingSpeed1 rdfs:label "45 RPM" .
+        // :playbackChannel1 rdfs:label "Stereo" .
+        // :playbackChannel2 rdfs:label "Mono" .
+
         "7\"",
-        //bf:PlayingSpeed
         "45 RPM",
-        // not sure if this is really a bf:editionStatement. bf:edition has domain of bf:Classification
         "Promo",
         "Stereo",
         "Mono"
       ],
-      //bf:baseMaterial (probably don't wait for changes to material pattern)
+      // :instance1 bf:baseMaterial <http://vocab.getty.edu/aat/300014502> .
+      // Note: map Vinyl to http://vocab.getty.edu/aat/300014502 and Shellac to http://vocab.getty.edu/aat/300014918
       "name": "Vinyl"
     }
   ],
-  // Measurement model or bf:dimensions
+  // Ask Tracey if we want to map this to bf:dimensions.
   "estimated_weight": 60,
-  //bf:Provision / bf:date
+  // :instance1 bf:provisionActivity :provisionActivity1. :provisionActivity1 bf:date "1971" .
   "released": "1971",
   "date_added": "2015-06-18T07:33:05-07:00",
   // bf:Contribution/bf:agent. Would need to Reconcile to LC RWOs (there are often links from the artist json to wikipedia pages/entities to VIAF to LC RWO's) or use as search in lookup. Need to decide how to handle principle performers and their roles.
@@ -162,8 +163,14 @@
       "title": "I Guess I'll Have To Dream The Rest"
     }
   ],
+  // :instance1 bf:note :note1. :note1 bf:date "Not For Sale - For broadcast use only.\r\n\r\nA - Mono Side\r\nB - Stereo Side" .
   "notes": "Not For Sale - For broadcast use only.\r\n\r\nA - Mono Side\r\nB - Stereo Side",
   //bf:Identifier (type could be used to determine subclasses)
+  // :instance1 bf:indentifiedBy :identifier2 , :identifier3 , :identifier4 .
+  // :identifier2 rdfs:label "ASCAP" .
+  // :identifier3 rdfs:label "ZSP-3842-A" .
+  // :identifier4 rdfs:label "ZSP-3842-B" .
+  // probably want some bf:Identifier subclasses.
   "identifiers": [
     {
       "type": "Rights Society",
@@ -181,7 +188,11 @@
     }
   ],
   "companies": [
-    //bf:Provisions
+  // :instance1 bf:provisionActivity :provisionActivity2. :provisionActivity2 bf:agent <URIs based on strings found in the "labels:" "name:" > , bf:role :role2.
+  // :role2 rdfs:label "Licensed From" .
+  // :instance1 bf:provisionActivity :provisionActivity3. :provisionActivity3 bf:agent <URIs based on strings found in the "labels:" "name:" > , bf:role :role3.
+  // :role3 rdfs:label "Published By" .
+  // ask Tracey about mapping roles. http://id.loc.gov/vocabulary/relators doesn't have values for label and presser.
     {
       "name": "Columbia Records",
       "entity_type": "6",
