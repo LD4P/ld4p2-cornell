@@ -76,8 +76,8 @@
   // :work1 bf:title :title1 . :title1 rdfs:value "I Guess I'll Have To Dream The Rest" . 
   // :instance1 bf:title :title2 . :title2 rdfs:value "I Guess I'll Have To Dream The Rest" . 
   "title": "I Guess I'll Have To Dream The Rest",
-  // bf:Contribution/bf:agent. Would need to Reconcile to LC RWOs (there are often links from the artist json to wikipedia pages/entities to VIAF to LC RWO's) or use as search in lookup. Need to decide how to handle principle performers and their roles.
-  // :work1 bf:contribution :contribution1 . :contribution1 bf:agent <URIs based on strings found in "artists:"> .
+  // bflc:PrimaryContribution/bf:agent. Would need to Reconcile to LC RWOs (there are often links from the artist json to wikipedia pages/entities to VIAF to LC RWO's) or use as search in lookup. Need to decide how to handle principle performers and their roles.
+  // :work1 bf:contribution :primaryContribution1 . :primaryContribution1 bf:agent <URIs based on strings found in "artists:"> .
   "artists": [
     {
       "join": "",
@@ -121,7 +121,7 @@
   // :instance1 bf:provisionActivity :provisionActivity1. :provisionActivity1 bf:date "1971" .
   "released": "1971",
   "date_added": "2015-06-18T07:33:05-07:00",
-  // bf:Contribution/bf:agent. Would need to Reconcile to LC RWOs (there are often links from the artist json to wikipedia pages/entities to VIAF to LC RWO's) or use as search in lookup. Need to decide how to handle principle performers and their roles.
+  // bf:Contribution/bf:agent. Would need to Reconcile to LC RWOs (there are often links from the artist json to wikipedia pages/entities to VIAF to LC RWO's) or use as search in lookup. Need to decide how to handle performers and their roles.
   // :work1 bf:contribution :contribution1 . :contribution1 bf:agent <URIs based on strings found in "artists:"> .
   "extraartists": [
     {
