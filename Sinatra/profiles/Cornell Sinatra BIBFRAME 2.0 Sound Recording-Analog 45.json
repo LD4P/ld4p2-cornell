@@ -9,7 +9,7 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [],
-                        "useValuesFrom": ["http://mlvlp04.loc.gov:8230/resources/works"],
+                        "useValuesFrom": ["http://discogsviaqa.notreal"],
                         "valueDataType": {"dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"},
                         "defaults": []
                     },
