@@ -9,9 +9,9 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [
-                            "profile:bf2:Agent:Person",
-                            "profile:bf2:Agent:Family",
-                            "profile:bf2:Agent:CorporateBody"
+                            "profile:bf2:CornellSinatra45:Agent:Person",
+                            "profile:bf2:CornellSinatra45:Agent:Family",
+                            "profile:bf2:CornellSinatra45:Agent:Organization"
                         ],
                         "useValuesFrom": [],
                         "valueDataType": {},
@@ -38,6 +38,34 @@
                     "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                     "propertyLabel": "Relationship Designator (RDA Appendix I)",
                     "remark": "http://access.rdatoolkit.org/rdaappi_rdai-34.html"
+                },
+                {
+                    "mandatory": "false",
+                    "repeatable": "false",
+                    "type": "literal",
+                    "resourceTemplates": [],
+                    "valueConstraint": {
+                        "valueTemplateRefs": [],
+                        "useValuesFrom": [],
+                        "defaults": [],
+                        "valueDataType": {}
+                    },
+                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                    "propertyLabel": "Contribution date"
+                },
+                {
+                    "mandatory": "false",
+                    "repeatable": "false",
+                    "type": "resource",
+                    "resourceTemplates": [],
+                    "valueConstraint": {
+                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Place"],
+                        "useValuesFrom": [],
+                        "defaults": [],
+                        "valueDataType": {}
+                    },
+                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
+                    "propertyLabel": "Place of contribution"
                 }
             ],
             "id": "profile:bflc:CornellSinatra45:Agents:PrimaryContribution",
@@ -53,9 +81,9 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [
-                            "profile:bf2:Agent:bfPerson",
+                            "profile:bf2:CornellSinatra45:Agent:Person",
                             "profile:bf2:Agent:Family",
-                            "profile:bf2:Agent:CorporateBody",
+                            "profile:bf2:CornellSinatra45:Agent:Organization",
                             "profile:bf2:Agent:Jurisdiction",
                             "profile:bf2:Agent:Conference"
                         ],
@@ -82,7 +110,7 @@
                     "remark": "http://access.rdatoolkit.org/rdaappi_rdai-34.html"
                 }
             ],
-            "id": "profile:bflc:Agents:bfPrimaryContribution",
+            "id": "profile:bf2:CornellSinatra45:Agents:bfPrimaryContribution",
             "resourceLabel": "Primary Contribution (test)",
             "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
         }
