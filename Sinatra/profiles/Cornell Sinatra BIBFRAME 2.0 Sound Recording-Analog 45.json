@@ -10,6 +10,7 @@
                     "valueConstraint": {
                         "valueTemplateRefs": [],
                         "useValuesFrom": ["http://discogsviaqa.notreal"],
+                        // Add correct Discogs URL when it is available in QA
                         "valueDataType": {"dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"},
                         "defaults": []
                     },
