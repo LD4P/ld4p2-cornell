@@ -10,7 +10,6 @@
                     "valueConstraint": {
                         "valueTemplateRefs": [],
                         "useValuesFrom": ["http://discogsviaqa.notreal"],
-                        // Add correct Discogs URL when it is available in QA
                         "valueDataType": {"dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"},
                         "defaults": []
                     },
@@ -23,7 +22,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Agents:bfPrimaryContribution"],
+                        "valueTemplateRefs": ["profile:bflc:CornellSinatra45:Agents:PrimaryContribution"],
                         "useValuesFrom": [],
                         "valueDataType": {"dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"},
                         "defaults": []
@@ -39,8 +38,8 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [
-                            "profile:bf2:CornellSinatra45:WorkTitle",
-                            "profile:bf2:CornellSinatra45:WorkVariantTitle",
+                            "profile:bf2:WorkTitle",
+                            "profile:bf2:WorkVariantTitle",
                             "profile:bflc:TranscribedTitle"
                         ],
                         "useValuesFrom": [],
@@ -56,7 +55,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Form"],
+                        "valueTemplateRefs": ["profile:bf2:Form"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -104,7 +103,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:MOPStatement"],
+                        "valueTemplateRefs": ["profile:bf2:MOPStatement"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -118,7 +117,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:PMOMedPerf:PerfMed"],
+                        "valueTemplateRefs": ["profile:bf2:PMOMedPerf:PerfMed"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -132,7 +131,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:MOPInstrument"],
+                        "valueTemplateRefs": ["profile:bf2:MOPInstrument"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -146,7 +145,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:MOPVoice"],
+                        "valueTemplateRefs": ["profile:bf2:MOPVoice"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -160,7 +159,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:MOPEnsemble"],
+                        "valueTemplateRefs": ["profile:bf2:MOPEnsemble"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -194,68 +193,9 @@
                         "valueDataType": {},
                         "defaults": []
                     },
-                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicOpusNumber",
-                    "propertyLabel": "Music Opus Number (RDA 6.16.1.3.2)",
-                    "remark": "http://access.rdatoolkit.org/6.16.1.3.2.html"
-                },
-                {
-                    "mandatory": "false",
-                    "repeatable": "true",
-                    "type": "literal",
-                    "resourceTemplates": [],
-                    "valueConstraint": {
-                        "valueTemplateRefs": [],
-                        "useValuesFrom": [],
-                        "valueDataType": {},
-                        "defaults": []
-                    },
-                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicThematicNumber",
-                    "propertyLabel": "Thematic Index Number (RDA 6.16.1.3.3)",
-                    "remark": "http://access.rdatoolkit.org/rdachp6_rda6-4781.html"
-                },
-                {
-                    "mandatory": "false",
-                    "repeatable": "true",
-                    "type": "literal",
-                    "resourceTemplates": [],
-                    "valueConstraint": {
-                        "valueTemplateRefs": [],
-                        "useValuesFrom": [],
-                        "valueDataType": {},
-                        "defaults": []
-                    },
                     "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicKey",
                     "propertyLabel": "Key (RDA 6.17)",
                     "remark": "http://access.rdatoolkit.org/6.17.html"
-                },
-                {
-                    "mandatory": "false",
-                    "repeatable": "true",
-                    "type": "resource",
-                    "resourceTemplates": [],
-                    "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Form:Geog"],
-                        "useValuesFrom": [],
-                        "valueDataType": {},
-                        "defaults": []
-                    },
-                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                    "propertyLabel": "(Geographic) Coverage of the Content"
-                },
-                {
-                    "mandatory": "false",
-                    "repeatable": "true",
-                    "type": "literal",
-                    "resourceTemplates": [],
-                    "valueConstraint": {
-                        "valueTemplateRefs": [],
-                        "useValuesFrom": [],
-                        "valueDataType": {},
-                        "defaults": []
-                    },
-                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
-                    "propertyLabel": "(Temporal) Coverage of the Content (RDA 7.3)",
-                    "remark": "http://access.rdatoolkit.org/7.3.html"
                 },
                 {
                     "mandatory": "false",
@@ -294,9 +234,9 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [
-                            "profile:bf2:CornellSinatra45:TopicSearch",
-                            "profile:bf2:CornellSinatra45:Components",
-                            "profile:bf2:CornellSinatra45:TopicInput"
+                            "profile:TopicSearch",
+                            "profile:Components",
+                            "profile:TopicInput"
                         ],
                         "useValuesFrom": [],
                         "valueDataType": {},
@@ -312,7 +252,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Note"],
+                        "valueTemplateRefs": ["profile:bf2:Note"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -326,12 +266,12 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Contents"],
+                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:SongWork"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
                     },
-                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
+                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasPart",
                     "propertyLabel": "Contents (LC-PCC PS 25.1)"
                 },
                 {
@@ -340,7 +280,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Summary"],
+                        "valueTemplateRefs": ["profile:bf2:Summary"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -374,7 +314,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Language2"],
+                        "valueTemplateRefs": ["profile:bf2:Language2"],
                         "useValuesFrom": [],
                         "valueDataType": {"dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"},
                         "editable": "false",
@@ -391,7 +331,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Identifiers:Matrix"],
+                        "valueTemplateRefs": ["profile:bf2:Identifiers:Matrix"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -419,7 +359,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:SupplContent"],
+                        "valueTemplateRefs": ["profile:bf2:SupplContent"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -448,7 +388,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:RelatedWork"],
+                        "valueTemplateRefs": ["profile:bf2:RelatedWork"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -463,7 +403,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:RelatedExpression"],
+                        "valueTemplateRefs": ["profile:bf2:RelatedExpression"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -515,7 +455,7 @@
                     "resourceTemplates": [],
                     "type": "resource",
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Analog:Work"],
+                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Work"],
                         "useValuesFrom": [],
                         "valueDataType": {"dataTypeURI": ""},
                         "defaults": []
@@ -529,10 +469,10 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [
-                            "profile:bf2:CornellSinatra45:Title",
-                            "profile:bf2:CornellSinatra45:Title:VarTitle",
-                            "profile:bf2:CornellSinatra45:ParallelTitle",
-                            "profile:bflc:TranscribedTitle"
+                              "profile:bf2:Title",
+                              "profile:bf2:Title:VarTitle",
+                              "profile:bf2:ParallelTitle",
+                              "profile:bflc:TranscribedTitle"
                         ],
                         "useValuesFrom": [],
                         "valueDataType": {"remark": ""},
@@ -613,7 +553,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:SeriesInformation"],
+                        "valueTemplateRefs": ["profile:bf2:SeriesInformation"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -649,15 +589,9 @@
                     "type": "resource",
                     "valueConstraint": {
                         "valueTemplateRefs": [
-                            "profile:bf2:CornellSinatra45:Identifiers:ISBN",
-                            "profile:bf2:CornellSinatra45:Identifiers:ISMN",
-                            "profile:bf2:CornellSinatra45:Identifiers:PubNumber",
-                            "profile:bf2:CornellSinatra45:Identifiers:EAN",
-                            "profile:bf2:CornellSinatra45:Identifiers:UPC",
-                            "profile:bf2:CornellSinatra45:TestProfile:ISRC",
-                            "profile:bf2:CornellSinatra45:Identifiers:Copyright",
-                            "profile:bf2:CornellSinatra45:Identifiers:Other",
-                            "profile:bf2:CornellSinatra45:Identifiers:Local"
+                            "profile:bf2:Identifiers:Identifiers:PubNumber",
+                            "profile:bf2:Identifiers:Identifiers:Copyright",
+                            "profile:bf2:Identifiers:Identifiers:Other",
                         ],
                         "useValuesFrom": [],
                         "valueDataType": {},
@@ -673,7 +607,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Note"],
+                        "valueTemplateRefs": ["profile:bf2:Note"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -688,7 +622,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Analog:Credits"],
+                        "valueTemplateRefs": ["profile:bf2:Analog:Credits"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -761,7 +695,7 @@
                         "useValuesFrom": [],
                         "valueDataType": {
                             "dataTypeLabel": "",
-                            "dataTypeLabelHint": "4 3/4 in.",
+                            "dataTypeLabelHint": "7 in.",
                             "remark": ""
                         },
                         "defaultLiteral": "",
@@ -883,7 +817,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Identifiers:LCCN"],
+                        "valueTemplateRefs": ["profile:bf2:Identifiers:LCCN"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -898,21 +832,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:AdminMetadata"],
-                        "useValuesFrom": [],
-                        "valueDataType": {},
-                        "defaults": []
-                    },
-                    "propertyLabel": "Administrative Metadata for Instance",
-                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata"
-                },
-                {
-                    "mandatory": "false",
-                    "repeatable": "true",
-                    "type": "resource",
-                    "resourceTemplates": [],
-                    "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Analog:Item"],
+                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Item"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -937,8 +857,8 @@
                         "useValuesFrom": [],
                         "valueDataType": {"dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"},
                         "defaults": [{
-                            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                            "defaultLiteral": "DLC"
+                            "defaultURI": "http://id.loc.gov/vocabulary/organizations/nicmu",
+                            "defaultLiteral": "Cornell University, Music Library"
                         }]
                     },
                     "mandatory": "false",
@@ -949,7 +869,7 @@
                     "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Identifiers:Shelfmark"],
+                        "valueTemplateRefs": ["profile:bf2:Identifiers:Shelfmark"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -963,7 +883,7 @@
                     "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Identifiers:Barcode"],
+                        "valueTemplateRefs": ["profile:bf2:Identifiers:Barcode"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -971,21 +891,7 @@
                     "mandatory": "false",
                     "repeatable": "true",
                     "type": "resource"
-                },
-                {
-                    "propertyLabel": "Electronic location",
-                    "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-                    "resourceTemplates": [],
-                    "valueConstraint": {
-                        "valueTemplateRefs": [],
-                        "useValuesFrom": [],
-                        "valueDataType": {},
-                        "defaults": []
-                    },
-                    "mandatory": "false",
-                    "repeatable": "true",
-                    "type": "literal"
-                },
+                }
                 {
                     "propertyLabel": "Held in sublocation",
                     "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
@@ -1005,7 +911,7 @@
                     "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Note"],
+                        "valueTemplateRefs": ["profile:bf2:Note"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -1020,9 +926,9 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [
-                            "profile:bf2:CornellSinatra45:Item:Access",
-                            "profile:bf2:CornellSinatra45:Item:Use",
-                            "profile:bf2:CornellSinatra45:Item:Retention"
+                            "profile:bf2:Item:Access",
+                            "profile:bf2:Item:Item:Use",
+                            "profile:bf2:Item:Retention"
                         ],
                         "useValuesFrom": [],
                         "valueDataType": {},
@@ -1051,7 +957,7 @@
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
                 "propertyLabel": "Credits note"
             }],
-            "id": "profile:bf2:CornellSinatra45:Credits",
+            "id": "profile:bf2:Analog:Credits",
             "resourceLabel": "Note",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
             "remark": ""
@@ -1097,8 +1003,8 @@
             "resourceLabel": "Groove Characteristic"
         }
     ],
-    "contact": "NDMSO",
-    "date": "2018-11-12",
+    "contact": "Steven Folsom",
+    "date": "2019-01-17",
     "description": "Work, Expression, Instance for Cornell Analog 45 Recordings",
     "id": "profile:bf2:CornellSinatra45:CornellSinatra45",
     "title": "Cornell Sinatra BIBFRAME 2.0 Sound Recording-Analog 45",

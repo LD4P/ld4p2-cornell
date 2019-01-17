@@ -53,7 +53,7 @@
                         "resourceTemplates": [],
                         "valueConstraint": {
                             "valueTemplateRefs": [
-                                "profile:bf2:Place"
+                                "profile:bf2:CornellSinatra45:Place"
                             ],
                             "useValuesFrom": [],
                             "defaults": [],
@@ -95,7 +95,7 @@
                         "propertyLabel": "Capture note"
                     }
                 ],
-                "id": "profile:bf2:Capture",
+                "id": "profile:bf2:CornellSinatra45:Capture",
                 "resourceURI": "http://id.loc.gov/ontologies/bibframe/Capture",
                 "resourceLabel": "Capture information"
             },
@@ -156,7 +156,9 @@
                             "valueTemplateRefs": [],
                             "useValuesFrom": [],
                             "defaults": [],
-                            "valueDataType": {}
+                            "valueDataType": {
+                              "dataTypeLabelHint": "1 audio disc",
+                            }
                         },
                         "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
                         "propertyLabel": "Extent (RDA 3.4)",
@@ -179,7 +181,7 @@
                         "propertyLabel": "Note on extent"
                     }
                 ],
-                "id": "profile:bf2:Extent",
+                "id": "profile:bf2:CornellSinatra45:Extent",
                 "resourceURI": "http://id.loc.gov/ontologies/bibframe/Extent",
                 "resourceLabel": "Extent"
             },
@@ -863,10 +865,10 @@
                 "resourceLabel": "Medium of Performance Statement"
             }
         ],
-        "id": "profile:bf2:Xtras",
+        "id": "bf2:CornellSinatra45:Xtras",
         "title": "BIBFRAME 2.0 Extra menus",
         "date": "2018-09-26",
-        "contact": "NDMSO",
-        "description": "Extra submenus for format profiles"
+        "contact": "Steven Folsom",
+        "description": "Extra submenus for format profiles. Based on LC Extra Menus, but changed extent... possibly others in the future"
     }
 }
