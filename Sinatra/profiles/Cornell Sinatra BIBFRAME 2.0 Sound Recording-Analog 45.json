@@ -591,7 +591,7 @@
                         "valueTemplateRefs": [
                             "profile:bf2:Identifiers:Identifiers:PubNumber",
                             "profile:bf2:Identifiers:Identifiers:Copyright",
-                            "profile:bf2:Identifiers:Identifiers:Other",
+                            "profile:bf2:Identifiers:Identifiers:Other"
                         ],
                         "useValuesFrom": [],
                         "valueDataType": {},
@@ -891,7 +891,7 @@
                     "mandatory": "false",
                     "repeatable": "true",
                     "type": "resource"
-                }
+                },
                 {
                     "propertyLabel": "Held in sublocation",
                     "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
