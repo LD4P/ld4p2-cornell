@@ -275,6 +275,22 @@
                     "propertyLabel": "Contents (LC-PCC PS 25.1)"
                 },
                 {
+                        "mandatory": "false",
+                        "repeatable": "true",
+                        "type": "resource",
+                        "resourceTemplates": [],
+                        "valueConstraint": {
+                            "valueTemplateRefs": [
+                                "profile:bf2:Contents"
+                            ],
+                            "useValuesFrom": [],
+                            "valueDataType": {},
+                            "defaults": []
+                        },
+                        "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
+                        "propertyLabel": "Contents (LC-PCC PS 25.1)"
+                    },
+                {
                     "mandatory": "false",
                     "repeatable": "true",
                     "type": "resource",
@@ -779,12 +795,12 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [
-                            "profile:bf2:CornellSinatra45:TypeRec",
-                            "profile:bf2:CornellSinatra45:RecMedium",
-                            "profile:bf2:CornellSinatra45:PlayingSpeed",
-                            "profile:bf2:CornellSinatra45:Analog:Sound6",
-                            "profile:bf2:CornellSinatra45:Playback",
-                            "profile:bf2:CornellSinatra45:SpecPlayback"
+                            "profile:bf2:TypeRec",
+                            "profile:bf2:RecMedium",
+                            "profile:bf2:PlayingSpeed",
+                            "profile:bf2:Analog:Sound6",
+                            "profile:bf2:Playback",
+                            "profile:bf2:SpecPlayback"
                         ],
                         "useValuesFrom": [],
                         "valueDataType": {"dataTypeLabelHint": ""},
@@ -988,7 +1004,7 @@
                     "type": "resource",
                     "resourceTemplates": [],
                     "valueConstraint": {
-                        "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Note"],
+                        "valueTemplateRefs": ["profile:bf2:Note"],
                         "useValuesFrom": [],
                         "valueDataType": {},
                         "defaults": []
@@ -998,7 +1014,7 @@
                     "remark": "http://access.rdatoolkit.org/3.16.5.4.html"
                 }
             ],
-            "id": "profile:bf2:CornellSinatra45:Sound6",
+            "id": "profile:bf2:Analog:Sound6",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
             "resourceLabel": "Groove Characteristic"
         }
