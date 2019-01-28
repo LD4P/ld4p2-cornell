@@ -980,6 +980,78 @@
         },
         {
             "propertyTemplates": [
+              {
+                  "mandatory": "false",
+                  "repeatable": "true",
+                  "type": "resource",
+                  "resourceTemplates": [],
+                  "valueConstraint": {
+                      "valueTemplateRefs": [
+                          "profile:bf2:WorkTitle",
+                      ],
+                      "useValuesFrom": [],
+                      "valueDataType": {},
+                      "defaults": []
+                  },
+                  "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+                  "propertyLabel": "Title Information (RDA 6.14.2, RDA 6.14.3)"
+              },
+              {
+                  "mandatory": "false",
+                  "repeatable": "true",
+                  "type": "resource",
+                  "resourceTemplates": [],
+                  "valueConstraint": {
+                      "valueTemplateRefs": ["profile:bflc:CornellSinatra45:Agents:PrimaryContribution"],
+                      "useValuesFrom": [],
+                      "valueDataType": {"dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"},
+                      "defaults": []
+                  },
+                  "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+                  "propertyLabel": "Creator of Work (RDA 19.2)",
+                  "remark": "http://access.rdatoolkit.org/19.2.html"
+              },
+              {
+                  "mandatory": "false",
+                  "repeatable": "true",
+                  "type": "resource",
+                  "resourceTemplates": [],
+                  "valueConstraint": {
+                      "valueTemplateRefs": ["profile:bf2:CornellSinatra45:Agents:Contribution"],
+                      "useValuesFrom": [],
+                      "valueDataType": {},
+                      "defaults": []
+                  },
+                  "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+                  "propertyLabel": "Contribution (RDA 19.3 and 20.2)",
+                  "remark": "http://access.rdatoolkit.org/19.3.html"
+              },
+              {
+                  "mandatory": "false",
+                  "repeatable": "false",
+                  "type": "literal",
+                  "resourceTemplates": [],
+                  "valueConstraint": {
+                      "valueTemplateRefs": [],
+                      "useValuesFrom": [],
+                      "valueDataType": {
+                          "dataTypeURI": "",
+                          "dataTypeLabel": "",
+                          "dataTypeLabelHint": "HH:MM:SS"
+                      },
+                      "defaults": []
+                  },
+                  "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
+                  "propertyLabel": "Song duration",
+                  "remark": ""
+              },
+            ],
+            "id": "profile:bf2:CornellSinatra45:SongWork",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Audio",
+            "resourceLabel": "Song"
+        }
+        {
+            "propertyTemplates": [
                 {
                     "mandatory": "false",
                     "repeatable": "true",
