@@ -7,7 +7,7 @@
             "resourceTemplates": [],
             "valueConstraint": {
                 "valueTemplateRefs": [],
-                "useValuesFrom": ["https://lookup.ld4l.org/authorities/search/linked_data/geonames"],
+                "useValuesFrom": ["urn:ld4p:qa:geonames"],
                 "valueDataType": {
                     "remark": "",
                     "dataTypeURI": ""

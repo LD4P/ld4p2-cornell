@@ -9,7 +9,7 @@
                     "propertyLabel": "Search LCNAF",
                     "valueConstraint": {
                         "repeatable": "true",
-                        "useValuesFrom": ["https://lookup.ld4l.org/authorities/show/linked_data/loc/names/"],
+                        "useValuesFrom": ["urn:ld4p:qa:names:person"],
                         "valueTemplateRefs": [],
                         "valueDataType": {"dataTypeURI": ""},
                         "valueLanguage": "",
@@ -184,7 +184,7 @@
                     "propertyLabel": "Search LCNAF",
                     "valueConstraint": {
                         "valueTemplateRefs": [],
-                        "useValuesFrom": ["http://id.loc.gov/authorities/names"],
+                        "useValuesFrom": ["urn:ld4p:qa:names"],
                         "valueDataType": {"dataTypeURI": ""},
                         "repeatable": "true",
                         "defaults": []
@@ -262,7 +262,7 @@
                     "resourceTemplates": [],
                     "valueConstraint": {
                         "valueTemplateRefs": [],
-                        "useValuesFrom": ["http://id.loc.gov/authorities/names"],
+                        "useValuesFrom": ["urn:ld4p:qa:names"],
                         "valueDataType": {},
                         "defaults": []
                     },
@@ -401,7 +401,7 @@
                     "propertyLabel": "Search LCNAF",
                     "valueConstraint": {
                         "valueTemplateRefs": [],
-                        "useValuesFrom": ["https://lookup.ld4l.org/authorities/show/linked_data/loc/names/"],
+                        "useValuesFrom": ["urn:ld4p:qa:names:organization"],
                         "valueDataType": {"dataTypeURI": ""},
                         "repeatable": "true",
                         "defaults": []
