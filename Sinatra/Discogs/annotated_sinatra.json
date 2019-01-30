@@ -72,9 +72,9 @@
   ],
   "thumb": "",
   "num_for_sale": 4,
-  // For releases that do not have a related master, also map to bf:Title/rdfs:value on bf:Work
-  // :work1 bf:title :title1 . :title1 rdfs:value "I Guess I'll Have To Dream The Rest" . 
-  // :instance1 bf:title :title2 . :title2 rdfs:value "I Guess I'll Have To Dream The Rest" . 
+  // For releases that do not have a related master, also map to bf:Title/bf:mainTitle on bf:Work
+  // :work1 bf:title :title1 . :title1 bf:mainTitle "I Guess I'll Have To Dream The Rest" . 
+  // :instance1 bf:title :title2 . :title2 bf:mainTitle "I Guess I'll Have To Dream The Rest" . 
   "title": "I Guess I'll Have To Dream The Rest",
   // bflc:PrimaryContribution/bf:agent. "name" value maps to rdfs:label on a bf:Person. Would need to Reconcile to LC RWOs (there are often links from the artist json to wikipedia pages/entities to VIAF to LC RWO's) or use as search in lookup. Need to decide how to handle principle performers and their roles.
   // :work1 bf:contribution :primaryContribution1 . :primaryContribution1 bf:agent <URIs based on strings found in "artists:"> .
@@ -148,8 +148,8 @@
   // :primaryContribution6 bf:agent <URIs based on strings found in "artists:" from work1> . 
   // :work3 a bf:Work , bf:Audio ; bf:title :title3 ; bf:duration "2:42" ;  bf:contribution :primaryContribution7 . 
   // :primaryContribution7 bf:agent <URIs based on strings found in "artists:" from work1> .
-  // :title2 rdfs:value "I Guess I'll Have To Dream The Rest" .
-  // :title3 rdfs:value "I Guess I'll Have To Dream The Rest" .
+  // :title2 bf:mainTitle "I Guess I'll Have To Dream The Rest" .
+  // :title3 bf:mainTitle "I Guess I'll Have To Dream The Rest" .
   // Need to figure out side A and B on Instance .
   "tracklist": [
     {
