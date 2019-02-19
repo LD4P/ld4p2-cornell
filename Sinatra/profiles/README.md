@@ -1,9 +1,9 @@
 # Sinatra Profiles
 
-Here you will find BIBFRAME Profile Editor profiles for the LD4P2 Cornell work item for cataloging Frank Sinatra related 45 RPM records. These profiles were derived from the Library of Congress 
-        https://github.com/lcnetdev/verso/data/profiles/BIBFRAME 2.0 Sound Recording-Analog.json profiles. 
+Here you will find BIBFRAME Profile Editor profiles for the LD4P2 Cornell work item for cataloging Frank Sinatra related 45 RPM records. These profiles were derived from the Library of Congress
+        https://github.com/lcnetdev/verso/data/profiles/BIBFRAME 2.0 Sound Recording-Analog.json profiles.
 
-How this Sinatra profile differs from the orginal LC profile is illustrated here: https://github.com/LD4P/ld4p2-cornell/blob/master/Sinatra/profiles/Sinatra_profile_Decisions-copy.pdf 
+How this Sinatra profile differs from the orginal LC profile is illustrated here: https://github.com/LD4P/ld4p2-cornell/blob/master/Sinatra/profiles/Sinatra_profile_Decisions-copy.pdf
 
 Changes include:
 
@@ -14,6 +14,7 @@ Changes include:
 * Added the ability to describe songs as separate works
 * Changed the default for the bf:heldBy value to Cornell Music Library
 * useValuesFrom have been updated in some cases to use URN that point to the Questioning Authority Lookup Service.
+* LC's AdminMetadata pattern is not used.
 
 See: https://github.com/LD4P/ld4p2-cornell/blob/master/Sinatra/profiles/Sinatra_profile_Decisions-copy.pdf for other outstanding questions (as of 2019-02-08).
 
@@ -26,4 +27,3 @@ These profiles are subject to change; we anticipate after they have been uploade
 ## Contact
 
 Please add questions or comments here in this repository or send them via email to: sf433 [at] cornell [dot] edu.
-
