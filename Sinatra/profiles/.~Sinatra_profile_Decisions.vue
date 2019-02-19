@@ -1,14 +1,14 @@
-<!-- Tufts VUE 3.3.0 concept-map (Sinatra_profile_Decisions.vue) 2019-02-19 -->
+<!-- Tufts VUE 3.3.0 concept-map (Sinatra_profile_Decisions.vue) 2019-01-24 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Feb 19 11:41:00 EST 2019 by sf433 on platform Mac OS X 10.14.3 in JVM 10.0.2+13 -->
+<!-- Do Not Remove: Saved date Thu Jan 24 22:09:23 EST 2019 by sf433 on platform Mac OS X 10.14.2 in JVM 10.0.2+13 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="Sinatra_profile_Decisions.vue" created="1548278548049"
     x="0.0" y="0.0" width="1485.0337" height="1768.0" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1550594460197" size="76878"
+    <resource referenceCreated="1548385763270"
         spec="/Users/sf433/GitHub/ld4p2-cornell/Sinatra/profiles/Sinatra_profile_Decisions.vue"
         type="1" xsi:type="URLResource">
         <title>Sinatra_profile_Decisions.vue</title>
@@ -90,7 +90,7 @@
     </child>
     <child ID="108" label="profile:bf2:CornellSinatra45:Item"
         layerID="1" created="1548350089639" x="-498.0" y="1508.5"
-        width="216.0" height="142.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+        width="216.0" height="163.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#FFFFFF</fillColor>
         <strokeColor>#AD0C03</strokeColor>
         <textColor>#AD0C03</textColor>
@@ -107,7 +107,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="53" label="profile:bf2:Note" created="1548296208750"
-            x="34.0" y="41.5" width="95.0" height="22.0"
+            x="34.0" y="41.5" width="180.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -117,7 +117,7 @@
             <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
         </child>
         <child ID="52" label="profile:bf2:Note" created="1548296184840"
-            x="34.0" y="61.0" width="95.0" height="22.0"
+            x="34.0" y="61.0" width="171.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -147,7 +147,7 @@
             <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
         </child>
         <child ID="51" label="profile:bf2:Note" created="1548296134093"
-            x="34.0" y="119.5" width="95.0" height="22.0"
+            x="34.0" y="119.5" width="165.0" height="50.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -253,7 +253,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="46" label="profile:bf2:Note" created="1548295839250"
-            x="34.0" y="242.125" width="95.0" height="22.0"
+            x="34.0" y="242.125" width="165.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -294,7 +294,7 @@
             <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
         </child>
         <child ID="43" label="profile:bf2:Note" created="1548295691680"
-            x="34.0" y="341.125" width="95.0" height="22.0"
+            x="34.0" y="341.125" width="150.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -336,8 +336,8 @@
         </child>
         <child ID="95"
             label="&quot;profile:bf2:Identifiers:Identifiers:PubNumber&quot;,&#xa;&quot;profile:bf2:Identifiers:Identifiers:Copyright&quot;,&#xa;&quot;profile:bf2:Identifiers:Identifiers:Other&quot;"
-            created="1548348644871" x="34.0" y="419.125" width="258.0"
-            height="50.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+            created="1548348644871" x="34.0" y="419.125" width="199.0"
+            height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FC938D</fillColor>
             <strokeColor>#000000</strokeColor>
             <textColor>#000000</textColor>
@@ -346,7 +346,7 @@
             <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
         </child>
         <child ID="98" label="Dimensions propertyTemplate"
-            created="1548349425123" x="34.0" y="459.625" width="176.0"
+            created="1548349425123" x="34.0" y="438.625" width="176.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FCDBD9</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -356,7 +356,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="101" label="Base material propertyTemplate"
-            created="1548349569778" x="34.0" y="479.125" width="186.0"
+            created="1548349569778" x="34.0" y="458.125" width="186.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#E0FFE4</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -366,7 +366,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="102" label="Applied material propertyTemplate"
-            created="1548349586873" x="34.0" y="498.625" width="200.0"
+            created="1548349586873" x="34.0" y="477.625" width="200.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#E0FFE4</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -376,7 +376,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="45" label="profile:bf2:Note" created="1548295796895"
-            x="34.0" y="518.125" width="95.0" height="22.0"
+            x="34.0" y="497.125" width="122.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -386,7 +386,7 @@
             <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
         </child>
         <child ID="103" label="Recording generation propertyTemplate"
-            created="1548349740426" x="34.0" y="537.625" width="230.0"
+            created="1548349740426" x="34.0" y="516.625" width="230.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#E0FFE4</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -397,7 +397,7 @@
         </child>
         <child ID="44"
             label="&quot;profile:bf2:TypeRec&quot;,&#xa; &quot;profile:bf2:RecMedium&quot;,&#xa; &quot;profile:bf2:PlayingSpeed&quot;,&#xa;&quot;profile:bf2:Analog:Sound6&quot;,&#xa;&quot;profile:bf2:Playback&quot;,&#xa; &quot;profile:bf2:SpecPlayback&quot;"
-            created="1548295718087" x="34.0" y="557.125" width="165.0"
+            created="1548295718087" x="34.0" y="536.125" width="165.0"
             height="92.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -408,7 +408,7 @@
         </child>
         <child ID="104"
             label="Uniform Resource Locator propertyTemplate"
-            created="1548349806618" x="34.0" y="629.125" width="254.0"
+            created="1548349806618" x="34.0" y="608.125" width="254.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#E0FFE4</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -418,7 +418,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="105" label="profile:bf2:Identifiers:LCCN"
-            created="1548349913262" x="34.0" y="648.625" width="159.0"
+            created="1548349913262" x="34.0" y="627.625" width="159.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -429,7 +429,7 @@
         </child>
         <child ID="106"
             label="profile:bf2:CornellSinatra45:Item (has Item)"
-            created="1548349964194" x="34.0" y="668.125" width="245.0"
+            created="1548349964194" x="34.0" y="647.125" width="245.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FC938D</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -441,26 +441,27 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="100" layerID="1" created="1548349454907" x="-331.5"
-        y="1176.1003" width="195.0" height="9.505859" strokeWidth="1.0"
+        y="1167.544" width="195.0" height="4.067993" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/80d55f57c0a80164396804e0995eaff5</URIString>
-        <point1 x="-331.0" y="1185.1062"/>
-        <point2 x="-137.0" y="1176.6003"/>
+        <point1 x="-331.0" y="1168.0438"/>
+        <point2 x="-137.0" y="1171.1118"/>
         <ID1 xsi:type="node">98</ID1>
         <ID2 xsi:type="node">99</ID2>
     </child>
-    <child ID="97" layerID="1" created="1548349282393" x="-270.0"
-        y="1150.0547" width="133.5" height="5.3033447" strokeWidth="1.0"
-        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
+    <child ID="97" layerID="1" created="1548349282393" x="-314.25"
+        y="1147.0145" width="177.75" height="1.0341797"
+        strokeWidth="1.0" autoSized="false" controlCount="0"
+        arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/80d55f57c0a80164396804e09a42cf09</URIString>
-        <point1 x="-269.5" y="1154.8579"/>
-        <point2 x="-137.0" y="1150.5546"/>
+        <point1 x="-313.75" y="1147.5145"/>
+        <point2 x="-137.0" y="1147.5487"/>
         <ID1 xsi:type="node">95</ID1>
         <ID2 xsi:type="node">96</ID2>
     </child>
@@ -625,7 +626,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="38" label="profile:bf2:CornellSinatra45:SongWork"
-            created="1548295160344" x="34.0" y="330.625" width="250.5"
+            created="1548295160344" x="34.0" y="330.625" width="301.0"
             height="89.5" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FC938D</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -688,7 +689,7 @@
         </child>
         <child ID="67"
             label="Contents (table of contents note) propertyTemplate "
-            created="1548342924075" x="34.0" y="480.25" width="290.0"
+            created="1548342924075" x="34.0" y="480.25" width="118.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#E0FFE4</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -718,7 +719,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="24" label="profile:bf2:CornellSinatra45:Work"
-            created="1548279477189" x="34.0" y="538.75" width="193.0"
+            created="1548279477189" x="34.0" y="538.75" width="132.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -728,7 +729,7 @@
             <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
         </child>
         <child ID="26" label="profile:bf2:CornellSinatra45:Work"
-            created="1548294612054" x="34.0" y="558.25" width="193.0"
+            created="1548294612054" x="34.0" y="558.25" width="158.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -758,7 +759,7 @@
             <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
         </child>
         <child ID="21" label="profile:bf2:CornellSinatra45:Work"
-            created="1548279471426" x="34.0" y="614.125" width="193.0"
+            created="1548279471426" x="34.0" y="614.125" width="144.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#8AEE95</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -833,16 +834,16 @@
         <ID1 xsi:type="node">74</ID1>
         <ID2 xsi:type="node">109</ID2>
     </child>
-    <child ID="107" layerID="1" created="1548350010819" x="-383.1769"
-        y="1404.25" width="11.700989" height="104.75" strokeWidth="1.0"
+    <child ID="107" layerID="1" created="1548350010819" x="-383.32837"
+        y="1383.25" width="11.977386" height="125.75" strokeWidth="1.0"
         strokeStyle="3" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/811cf103c0a80164396804e04ef467f6</URIString>
-        <point1 x="-371.97592" y="1404.75"/>
-        <point2 x="-382.6769" y="1508.5"/>
+        <point1 x="-371.85098" y="1383.75"/>
+        <point2 x="-382.82837" y="1508.5"/>
         <ID1 xsi:type="node">106</ID1>
         <ID2 xsi:type="node">108</ID2>
     </child>
@@ -924,16 +925,16 @@
         <URIString>http://vue.tufts.edu/rdf/resource/811cf106c0a80164396804e0a6e6d322</URIString>
         <shape xsi:type="rectangle"/>
     </child>
-    <child ID="122" layerID="1" created="1548350842346" x="-276.625"
-        y="276.32" width="147.46513" height="13.679993"
+    <child ID="122" layerID="1" created="1548350842346" x="-238.75"
+        y="278.49048" width="116.138275" height="11.509552"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/811cf107c0a80164396804e0e498d661</URIString>
-        <point1 x="-276.125" y="276.82"/>
-        <point2 x="-129.65987" y="289.5"/>
+        <point1 x="-238.25" y="278.99045"/>
+        <point2 x="-123.111725" y="289.5"/>
         <ID1 xsi:type="node">38</ID1>
         <ID2 xsi:type="node">121</ID2>
     </child>
@@ -1276,16 +1277,16 @@
         <URIString>http://vue.tufts.edu/rdf/resource/811cf121c0a80164396804e074f043ae</URIString>
         <shape xsi:type="rectangle"/>
     </child>
-    <child ID="221" layerID="1" created="1548353979324" x="-392.25"
-        y="1065.1467" width="254.34967" height="4.378174"
+    <child ID="221" layerID="1" created="1548353979324" x="-351.00635"
+        y="1065.2712" width="213.10602" height="3.9473877"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/811cf122c0a80164396804e09cb68118</URIString>
-        <point1 x="-391.75" y="1069.0249"/>
-        <point2 x="-138.40033" y="1065.6467"/>
+        <point1 x="-350.50635" y="1068.7185"/>
+        <point2 x="-138.40033" y="1065.7711"/>
         <ID1 xsi:type="node">43</ID1>
         <ID2 xsi:type="node">220</ID2>
     </child>
@@ -1332,28 +1333,17 @@
         </child>
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
-    <child ID="230"
-        label="Note: Currently not using LC's bf:AdminMetadata pattern. Confirmed with Standford that Sinopia&#xa;depending on it. May need to reconsider this decision if other tools rely on it."
-        layerID="1" created="1550594313852" x="-137.83374" y="-71.0"
-        width="529.0" height="36.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <fillColor>#000000</fillColor>
-        <strokeColor>#000000</strokeColor>
-        <textColor>#FFFFFF</textColor>
-        <font>Arial-plain-12</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/06a1ca8b0a8005916f9454ab55701c4b</URIString>
-        <shape xsi:type="rectangle"/>
-    </child>
     <layer ID="1" label="Layer 1" created="1548278548059" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/7dcf277dc0a80164396804e029ba61f1</URIString>
     </layer>
-    <userZoom>1.0</userZoom>
-    <userOrigin x="-1072.8337" y="-110.0"/>
+    <userZoom>1.25</userZoom>
+    <userOrigin x="-1385.917" y="-293.62494"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1548278548048"
             x="0.0" y="0.0" width="1.4E-45" height="1.4E-45"
-            strokeWidth="0.0" autoSized="false" currentIndex="0" open="true">
+            strokeWidth="0.0" autoSized="false" currentIndex="-1" open="true">
             <strokeColor>#B3993333</strokeColor>
             <textColor>#000000</textColor>
             <font>SansSerif-plain-14</font>
