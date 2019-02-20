@@ -10,7 +10,7 @@ Changes include:
 * Linking to id.loc.gov RWOs from LCNAF rather than authorities
 * Linking to geoname features rather than bf:Places. The idea here being that Geonames is a dataset optimized for describing places, has more "place" information that can benefit discovery, and has a level of granularity that allows to link to highly specific features if needed.
 * Defaults for extents are customized for 45 RPM records
-* Prunned Identifier types based on Cataloger Feedback
+* Pruned Identifier types based on Cataloger Feedback
 * Added the ability to describe songs as separate works
 * Changed the default for the bf:heldBy value to Cornell Music Library
 * useValuesFrom have been updated in some cases to use URN that point to the Questioning Authority Lookup Service.
