@@ -71,7 +71,7 @@
             "id": "profile:bflc:CornellSinatra45:Agents:PrimaryContribution",
             "resourceLabel": "Primary Contribution",
             "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
-        },
+        }
     ],
     "contact": "Steven Folsom",
     "id": "profile:bflc:CornellSinatra45:PrimaryContribution",

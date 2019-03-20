@@ -157,7 +157,7 @@
                             "useValuesFrom": [],
                             "defaults": [],
                             "valueDataType": {
-                              "dataTypeLabelHint": "1 audio disc",
+                              "dataTypeLabelHint": "1 audio disc"
                             }
                         },
                         "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",

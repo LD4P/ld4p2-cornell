@@ -987,7 +987,7 @@
                   "resourceTemplates": [],
                   "valueConstraint": {
                       "valueTemplateRefs": [
-                          "profile:bf2:WorkTitle",
+                          "profile:bf2:WorkTitle"
                       ],
                       "useValuesFrom": [],
                       "valueDataType": {},
@@ -1044,12 +1044,12 @@
                   "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
                   "propertyLabel": "Song duration",
                   "remark": ""
-              },
+              }
             ],
             "id": "profile:bf2:CornellSinatra45:SongWork",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Audio",
             "resourceLabel": "Song"
-        }
+        },
         {
             "propertyTemplates": [
                 {
