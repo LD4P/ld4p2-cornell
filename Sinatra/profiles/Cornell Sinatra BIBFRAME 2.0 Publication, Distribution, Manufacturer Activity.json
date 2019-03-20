@@ -71,7 +71,7 @@
                 }
             ],
             "id": "profile:bf2:CornellSinatra45:PublicationInformation",
-            "contact": "",
+            "contact": "Steven Folsom",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
             "resourceLabel": "Publication Activity"
         },
